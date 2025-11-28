@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Holo Player – Render Any 3D Video From The Internet | Vision Pro</title>
-  <meta name="description" content="Experience the web's most powerful AI-powered spatial video player. Hardware-accelerated rendering brings every 3D video to life on your Vision Pro." />
+  <meta name="description" content="Experience the web's most powerful spatial video player. Hardware-accelerated rendering brings every 3D video to life on your Vision Pro." />
 
   <!-- Open Graph / Social Media -->
   <meta property="og:type" content="website" />
@@ -16,13 +16,27 @@
 </head>
 <body>
 
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo-link">
+        <img src="assets/logo.png" alt="Holo Player Logo" class="logo">
+      </a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#holohub-future">Vision</a>
+        <a href="#download" class="nav-cta">Download</a>
+      </div>
+    </div>
+  </nav>
+
   <!-- HERO SECTION -->
   <header class="hero">
     <div class="hero-content">
       <h1 class="hero-title">Holo Player</h1>
       <p class="hero-tagline">Render Any 3D Video From The Internet</p>
       <p class="hero-subtitle">
-        Experience the web's most powerful AI-powered spatial video player.<br>
+        Experience the web's most powerful spatial video player.<br>
         Hardware-accelerated rendering brings every 3D video to life on your Vision Pro.
       </p>
 
@@ -36,7 +50,13 @@
         Hardware-Accelerated Spatial Rendering
       </div>
 
-      <img src="assets/hero.png" alt="Holo Player on Vision Pro" class="hero-image">
+      <!-- Hero Demo Video -->
+      <div class="hero-media">
+        <video autoplay loop muted playsinline class="hero-video" id="demo">
+          <source src="assets/hero-demo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </div>
   </header>
 
@@ -121,15 +141,13 @@
   </section>
 
   <!-- SPATIAL SUPERIORITY -->
-  <section class="spatial-superiority">
+  <section class="spatial-superiority" id="features">
     <div class="container">
 
       <!-- Feature A: Hardware Rendering -->
       <div class="feature-row">
         <div class="feature-visual">
-          <div class="visual-placeholder">
-            <span class="visual-icon">🎭</span>
-          </div>
+          <img src="assets/hardware-rendering.png" alt="Hardware-accelerated 3D rendering in action" class="feature-image">
         </div>
         <div class="feature-content">
           <h3>Hardware-Accelerated 3D Rendering</h3>
@@ -145,9 +163,7 @@
       <!-- Feature B: AR Control -->
       <div class="feature-row reverse">
         <div class="feature-visual">
-          <div class="visual-placeholder">
-            <span class="visual-icon">✋</span>
-          </div>
+          <img src="assets/ar-controls.png" alt="Intuitive AR hand gesture controls" class="feature-image">
         </div>
         <div class="feature-content">
           <h3>Intuitive AR Control</h3>
@@ -162,9 +178,7 @@
       <!-- Feature C: Privacy -->
       <div class="feature-row">
         <div class="feature-visual">
-          <div class="visual-placeholder">
-            <span class="visual-icon">🔒</span>
-          </div>
+          <img src="assets/privacy-interface.png" alt="Clean, private viewing interface" class="feature-image">
         </div>
         <div class="feature-content">
           <h3>Your Sanctuary. Your Privacy.</h3>
@@ -184,8 +198,6 @@
     <div class="container">
       <h2>Designed for the Spatial Computing Revolution</h2>
       <p class="section-subtitle">Native visionOS. Native magic.</p>
-
-      <img src="assets/visionpro2.png" alt="Holo Player on Vision Pro" class="visionpro-image">
 
       <div class="visionpro-features">
         <div class="vp-feature">
@@ -247,7 +259,7 @@
   </section>
 
   <!-- HOLOHUB FUTURE -->
-  <section class="holohub-future">
+  <section class="holohub-future" id="holohub-future">
     <div class="container">
       <h2>Tomorrow's Creator Economy, Today</h2>
       <p class="section-subtitle">
@@ -368,6 +380,10 @@
   <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
+      <div class="footer-logo">
+        <img src="assets/logo.png" alt="Holo Player Logo" class="footer-logo-img">
+      </div>
+
       <div class="footer-columns">
         <div class="footer-col">
           <h5>Explore</h5>
