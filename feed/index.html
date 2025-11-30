@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Holo Hub - VR Video Feed</title>
+  <link rel="stylesheet" href="feed.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <img src="../assets/logo.png" alt="Holo Hub Logo" class="logo">
+    <h1 class="title">HOLO HUB</h1>
+  </header>
+
+  <!-- Category Filter -->
+  <nav class="categories" id="categories">
+    <!-- Categories dynamically loaded here -->
+  </nav>
+
+  <!-- Video Grid -->
+  <main class="video-grid" id="videoGrid">
+    <!-- Videos dynamically loaded here -->
+  </main>
+
+  <!-- Loading State -->
+  <div class="loading" id="loading">
+    <div class="spinner"></div>
+    <p>Loading videos...</p>
+  </div>
+
+  <!-- Error State -->
+  <div class="error" id="error" style="display: none;">
+    <p class="error-icon">⚠️</p>
+    <p class="error-message">Failed to load videos</p>
+    <button class="retry-btn" onclick="location.reload()">Retry</button>
+  </div>
+
+  <script src="feed.js"></script>
+</body>
+</html>

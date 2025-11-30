@@ -1,0 +1,90 @@
+{
+  "categories": [
+    {
+      "id": "all",
+      "name": "All Videos"
+    },
+    {
+      "id": "nature",
+      "name": "360° Nature"
+    },
+    {
+      "id": "gaming",
+      "name": "VR Gaming"
+    },
+    {
+      "id": "documentary",
+      "name": "Documentaries"
+    },
+    {
+      "id": "music",
+      "name": "Music Videos"
+    }
+  ],
+  "videos": [
+    {
+      "id": "1",
+      "title": "Mountain Peak VR 360°",
+      "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "platform": "YouTube",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+      "category": "nature"
+    },
+    {
+      "id": "2",
+      "title": "Ocean Depths Exploration",
+      "url": "https://vimeo.com/148751763",
+      "platform": "Vimeo",
+      "thumbnail": "https://i.vimeocdn.com/video/554726183-1920x1080.jpg",
+      "category": "nature"
+    },
+    {
+      "id": "3",
+      "title": "Forest Walk 360°",
+      "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "platform": "YouTube",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+      "category": "nature"
+    },
+    {
+      "id": "4",
+      "title": "Beat Saber Gameplay",
+      "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "platform": "YouTube",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+      "category": "gaming"
+    },
+    {
+      "id": "5",
+      "title": "Half-Life: Alyx VR",
+      "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "platform": "YouTube",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+      "category": "gaming"
+    },
+    {
+      "id": "6",
+      "title": "Space Documentary VR",
+      "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "platform": "YouTube",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+      "category": "documentary"
+    },
+    {
+      "id": "7",
+      "title": "Wildlife Safari 360°",
+      "url": "https://vimeo.com/148751763",
+      "platform": "Vimeo",
+      "thumbnail": "https://i.vimeocdn.com/video/554726183-1920x1080.jpg",
+      "category": "documentary"
+    },
+    {
+      "id": "8",
+      "title": "Concert Experience VR",
+      "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "platform": "YouTube",
+      "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+      "category": "music"
+    }
+  ]
+}
