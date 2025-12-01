@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 - Page Not Found | Holo Player</title>
+  <meta name="description" content="Page not found - Return to HoloHub" />
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .error-404-section {
+      min-height: calc(100vh - 160px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 20px;
+    }
+
+    .error-404-content {
+      text-align: center;
+      max-width: 600px;
+    }
+
+    .error-404-icon {
+      font-size: 120px;
+      margin-bottom: 24px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+    }
+
+    .error-404-title {
+      font-size: 72px;
+      font-weight: 700;
+      background: linear-gradient(135deg, #00a8ff, #bd00ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 16px;
+      line-height: 1.2;
+    }
+
+    .error-404-subtitle {
+      font-size: 28px;
+      font-weight: 600;
+      color: rgba(255, 255, 255, 0.9);
+      margin-bottom: 16px;
+    }
+
+    .error-404-message {
+      font-size: 18px;
+      line-height: 1.8;
+      color: rgba(255, 255, 255, 0.7);
+      margin-bottom: 40px;
+    }
+
+    .error-404-actions {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn-404-primary {
+      display: inline-block;
+      padding: 14px 32px;
+      background: linear-gradient(135deg, #00a8ff, #bd00ff);
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 16px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .btn-404-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0, 168, 255, 0.4);
+    }
+
+    .btn-404-secondary {
+      display: inline-block;
+      padding: 14px 32px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: rgba(255, 255, 255, 0.9);
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 16px;
+      transition: background 0.3s ease, border-color 0.3s ease;
+    }
+
+    .btn-404-secondary:hover {
+      background: rgba(255, 255, 255, 0.15);
+      border-color: rgba(255, 255, 255, 0.3);
+    }
+
+    .error-404-suggestions {
+      margin-top: 48px;
+      padding-top: 32px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .error-404-suggestions h3 {
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.8);
+      margin-bottom: 16px;
+    }
+
+    .error-404-links {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .error-404-links a {
+      color: #00a8ff;
+      text-decoration: none;
+      font-size: 16px;
+      transition: color 0.3s ease;
+    }
+
+    .error-404-links a:hover {
+      color: #bd00ff;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .error-404-icon {
+        font-size: 80px;
+      }
+
+      .error-404-title {
+        font-size: 48px;
+      }
+
+      .error-404-subtitle {
+        font-size: 22px;
+      }
+
+      .error-404-message {
+        font-size: 16px;
+      }
+
+      .error-404-actions {
+        flex-direction: column;
+      }
+
+      .btn-404-primary,
+      .btn-404-secondary {
+        width: 100%;
+        max-width: 300px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="/" class="logo-link">
+        <img src="assets/logo.png" alt="Holo Player Logo" class="logo">
+      </a>
+      <div class="nav-links">
+        <a href="/#features">Features</a>
+        <a href="/#holohub-future">Vision</a>
+        <a href="/#download" class="nav-cta">Download</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 404 ERROR SECTION -->
+  <section class="error-404-section">
+    <div class="error-404-content">
+      <div class="error-404-icon">🌌</div>
+      <h1 class="error-404-title">404</h1>
+      <h2 class="error-404-subtitle">Lost in the Metaverse</h2>
+      <p class="error-404-message">
+        This dimension doesn't exist in our spatial reality. The page you're looking for has drifted into another universe.
+      </p>
+
+      <div class="error-404-actions">
+        <a href="/" class="btn-404-primary">Return to Reality</a>
+        <a href="/#download" class="btn-404-secondary">Download App</a>
+      </div>
+
+      <div class="error-404-suggestions">
+        <h3>Popular Destinations</h3>
+        <div class="error-404-links">
+          <a href="/#features">Features</a>
+          <a href="/#holohub-future">Vision</a>
+          <a href="/feed/">Video Feed</a>
+          <a href="/privacy/">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-columns">
+        <div class="footer-col footer-brand">
+          <img src="assets/logo.png" alt="Holo Player Logo" class="footer-logo">
+          <p class="footer-tagline">Render 3D videos from the internet.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Explore</h5>
+          <ul>
+            <li><a href="/#features">Features</a></li>
+            <li><a href="/#holohub-future">Vision</a></li>
+            <li><a href="/#roadmap">Roadmap</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Connect</h5>
+          <ul>
+            <li><a href="/#community">Community</a></li>
+            <li><a href="/#support">Support</a></li>
+            <li><a href="/#press">Press</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Legal</h5>
+          <ul>
+            <li><a href="/privacy/">Privacy</a></li>
+            <li><a href="#terms">Terms</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 HoloHub &bull; Crafted for the Spatial Age</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
