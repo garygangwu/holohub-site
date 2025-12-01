@@ -21,6 +21,22 @@ const platformIcons = {
   'Default': '▶'
 };
 
+// Utility: Parse categories from string (e.g., "Underwater / Marine" -> ["underwater", "marine"])
+function parseCategories(categoryString) {
+  if (!categoryString) return [];
+  return categoryString.split(' / ').map(c => c.trim().toLowerCase());
+}
+
+// Utility: Shuffle array using Fisher-Yates algorithm
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
 // Initialize
 async function init() {
   try {
@@ -51,10 +67,13 @@ async function fetchFeedData() {
 function renderCategories() {
   if (!feedData || !feedData.categories) return;
 
-  // Count videos per category
+  // Count videos per category (handle multi-category videos)
   const videoCounts = {};
   feedData.videos.forEach(video => {
-    videoCounts[video.category] = (videoCounts[video.category] || 0) + 1;
+    const categories = parseCategories(video.category);
+    categories.forEach(cat => {
+      videoCounts[cat] = (videoCounts[cat] || 0) + 1;
+    });
   });
 
   // Filter categories with videos (or "all")
@@ -78,13 +97,19 @@ function renderCategories() {
 function renderVideos() {
   if (!feedData || !feedData.videos) return;
 
-  // Filter videos by category
+  // Filter videos by category (handle multi-category videos)
   const filteredVideos = currentCategory === 'all'
     ? feedData.videos
-    : feedData.videos.filter(video => video.category === currentCategory);
+    : feedData.videos.filter(video => {
+        const categories = parseCategories(video.category);
+        return categories.includes(currentCategory);
+      });
+
+  // Randomize the filtered videos
+  const randomizedVideos = shuffleArray(filteredVideos);
 
   // Render video cards
-  if (filteredVideos.length === 0) {
+  if (randomizedVideos.length === 0) {
     videoGridContainer.innerHTML = `
       <div style="grid-column: 1 / -1; text-align: center; padding: 80px 20px; color: rgba(255, 255, 255, 0.5);">
         <p style="font-size: 20px;">No videos in this category</p>
@@ -93,7 +118,7 @@ function renderVideos() {
     return;
   }
 
-  videoGridContainer.innerHTML = filteredVideos.map(video => {
+  videoGridContainer.innerHTML = randomizedVideos.map(video => {
     const platformIcon = platformIcons[video.platform] || platformIcons['Default'];
 
     return `
