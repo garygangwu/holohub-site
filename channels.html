@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Holo Player - 3D Video Channels</title>
+  <link rel="stylesheet" href="channels/channels.css?v=1">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <img src="assets/logo.png" alt="Holo Player Logo" class="logo">
+    <h1 class="title">3D VIDEO CHANNELS</h1>
+  </header>
+
+  <!-- Channel Grid -->
+  <main class="channel-grid" id="channelGrid">
+    <!-- Channels dynamically loaded here -->
+  </main>
+
+  <!-- Loading State -->
+  <div class="loading" id="loading">
+    <div class="spinner"></div>
+    <p>Loading channels...</p>
+  </div>
+
+  <!-- Error State -->
+  <div class="error" id="error" style="display: none;">
+    <p class="error-icon">⚠️</p>
+    <p class="error-message">Failed to load channels</p>
+    <button class="retry-btn" onclick="location.reload()">Retry</button>
+  </div>
+
+  <script src="channels/channels.js?v=1"></script>
+</body>
+</html>

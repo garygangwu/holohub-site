@@ -1,0 +1,260 @@
+/* ==========================================
+   HOLO PLAYER MAIN PAGE - CHANNELS
+   Clean, minimal design for Vision Pro
+   ========================================== */
+
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", sans-serif;
+  background: transparent;
+  color: #ffffff;
+  line-height: 1.6;
+  padding: 32px 48px;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.logo {
+  height: 48px;
+  width: auto;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  background: linear-gradient(135deg, #00a8ff, #bd00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Channel Grid */
+.channel-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  max-width: 1400px;
+}
+
+/* Channel Card */
+.channel-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  text-align: center;
+}
+
+.channel-card:hover {
+  transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 168, 255, 0.2);
+}
+
+.channel-logo-container {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.channel-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.channel-info {
+  width: 100%;
+}
+
+.channel-name {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  line-height: 1.3;
+  color: #ffffff;
+}
+
+.channel-source {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  padding: 4px 12px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+}
+
+.source-icon {
+  font-size: 14px;
+}
+
+/* Platform Colors */
+.channel-card[data-source="YouTube"] .channel-source {
+  background: rgba(255, 0, 0, 0.15);
+  color: #ff6b6b;
+}
+
+.channel-card[data-source="DailyMotion"] .channel-source {
+  background: rgba(0, 122, 255, 0.15);
+  color: #4fc3f7;
+}
+
+.channel-card[data-source="Vimeo"] .channel-source {
+  background: rgba(26, 183, 234, 0.15);
+  color: #1ab7ea;
+}
+
+.channel-card[data-source="Other"] .channel-source {
+  background: rgba(189, 0, 255, 0.15);
+  color: #bd00ff;
+}
+
+/* Loading State */
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  gap: 24px;
+}
+
+.spinner {
+  width: 48px;
+  height: 48px;
+  border: 4px solid rgba(255, 255, 255, 0.1);
+  border-top-color: #00a8ff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.loading p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Error State */
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  gap: 20px;
+}
+
+.error-icon {
+  font-size: 64px;
+}
+
+.error-message {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.retry-btn {
+  padding: 12px 32px;
+  background: linear-gradient(135deg, #00a8ff, #bd00ff);
+  border: none;
+  border-radius: 24px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.retry-btn:hover {
+  transform: scale(1.05);
+}
+
+.retry-btn:active {
+  transform: scale(0.98);
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  body {
+    padding: 28px 40px;
+  }
+
+  .channel-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 24px 32px;
+  }
+
+  .channel-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .header {
+    margin-bottom: 32px;
+  }
+
+  .logo {
+    height: 40px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .channel-logo-container {
+    width: 80px;
+    height: 80px;
+  }
+
+  .channel-card {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .channel-grid {
+    grid-template-columns: 1fr;
+  }
+}
