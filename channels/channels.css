@@ -106,19 +106,13 @@ body {
 }
 
 .channel-source {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
+  display: inline-block;
   font-size: 13px;
   color: rgba(255, 255, 255, 0.6);
   font-weight: 500;
   padding: 4px 12px;
   background: rgba(255, 255, 255, 0.08);
   border-radius: 12px;
-}
-
-.source-icon {
-  font-size: 14px;
 }
 
 /* Platform Colors */

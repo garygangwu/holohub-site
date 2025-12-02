@@ -11,14 +11,6 @@ const channelGridContainer = document.getElementById('channelGrid');
 const loadingElement = document.getElementById('loading');
 const errorElement = document.getElementById('error');
 
-// Platform icons
-const platformIcons = {
-  'YouTube': '▶',
-  'DailyMotion': '▶',
-  'Vimeo': '▶',
-  'Other': '🌐'
-};
-
 // Utility: Shuffle array using Fisher-Yates algorithm
 function shuffleArray(array) {
   const shuffled = [...array];
@@ -72,8 +64,6 @@ function renderChannels() {
   const randomizedChannels = shuffleArray(channelsData);
 
   channelGridContainer.innerHTML = randomizedChannels.map(channel => {
-    const platformIcon = platformIcons[channel.source] || platformIcons['Other'];
-
     return `
       <a href="${channel.url}" class="channel-card" data-source="${channel.source}">
         <div class="channel-logo-container">
@@ -87,10 +77,7 @@ function renderChannels() {
         </div>
         <div class="channel-info">
           <h3 class="channel-name">${channel.name}</h3>
-          <div class="channel-source">
-            <span class="source-icon">${platformIcon}</span>
-            <span>${channel.source}</span>
-          </div>
+          <div class="channel-source">${channel.source}</div>
         </div>
       </a>
     `;
