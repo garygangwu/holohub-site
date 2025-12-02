@@ -115,27 +115,6 @@ body {
   border-radius: 12px;
 }
 
-/* Platform Colors */
-.channel-card[data-source="YouTube"] .channel-source {
-  background: rgba(255, 0, 0, 0.15);
-  color: #ff6b6b;
-}
-
-.channel-card[data-source="DailyMotion"] .channel-source {
-  background: rgba(0, 122, 255, 0.15);
-  color: #4fc3f7;
-}
-
-.channel-card[data-source="Vimeo"] .channel-source {
-  background: rgba(26, 183, 234, 0.15);
-  color: #1ab7ea;
-}
-
-.channel-card[data-source="Other"] .channel-source {
-  background: rgba(189, 0, 255, 0.15);
-  color: #bd00ff;
-}
-
 /* Loading State */
 .loading {
   display: flex;
