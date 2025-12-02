@@ -56,10 +56,10 @@ async function fetchChannelsData() {
 
 // Render channels
 function renderChannels() {
-  if (!channelsData || !channelsData.channels) return;
+  if (!channelsData || !Array.isArray(channelsData)) return;
 
   // Render channel cards
-  if (channelsData.channels.length === 0) {
+  if (channelsData.length === 0) {
     channelGridContainer.innerHTML = `
       <div style="grid-column: 1 / -1; text-align: center; padding: 80px 20px; color: rgba(255, 255, 255, 0.5);">
         <p style="font-size: 20px;">No channels available</p>
@@ -69,7 +69,7 @@ function renderChannels() {
   }
 
   // Randomize the channels
-  const randomizedChannels = shuffleArray(channelsData.channels);
+  const randomizedChannels = shuffleArray(channelsData);
 
   channelGridContainer.innerHTML = randomizedChannels.map(channel => {
     const platformIcon = platformIcons[channel.source] || platformIcons['Other'];
