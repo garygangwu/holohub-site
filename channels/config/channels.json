@@ -184,5 +184,11 @@
     "source": "Vimeo",
     "url": "https://vimeo.com/channels/360vr",
     "logo": "https://i.vimeocdn.com/channels_uploaded_thumb/1210646-1488810696_340x340"
+  },
+  {
+    "name": "MVR",
+    "source": "YouTube",
+    "url": "https://www.youtube.com/@mvr",
+    "logo": "https://yt3.googleusercontent.com/4XjFbTfAQDo4Zhj--6iRU-J4HoeAo9ReCqgebQd50WHd3_DUL2DOzYs0fTcup3P6vItpHWeZ=s900-c-k-c0x00ffffff-no-rj"
   }
 ]
