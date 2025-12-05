@@ -27,13 +27,63 @@ function parseCategories(categoryString) {
   return categoryString.split(' / ').map(c => c.trim().toLowerCase());
 }
 
-// Utility: Shuffle array using Fisher-Yates algorithm
-function shuffleArray(array) {
+// Utility: Get or create shuffle seed with 1-hour expiration
+function getShuffleSeed() {
+  const CACHE_KEY = 'feedShuffleSeed';
+  const CACHE_DURATION = 3600000; // 1 hour in milliseconds
+
+  try {
+    const cached = localStorage.getItem(CACHE_KEY);
+    if (cached) {
+      const { seed, timestamp } = JSON.parse(cached);
+      const age = Date.now() - timestamp;
+
+      if (age < CACHE_DURATION) {
+        console.log(`Using cached shuffle seed (age: ${Math.floor(age / 1000)}s)`);
+        return seed;
+      } else {
+        console.log('Shuffle seed expired, generating new one');
+      }
+    }
+  } catch (error) {
+    console.warn('Failed to read cached shuffle seed:', error);
+  }
+
+  // Generate new seed
+  const newSeed = Date.now().toString();
+  try {
+    localStorage.setItem(CACHE_KEY, JSON.stringify({
+      seed: newSeed,
+      timestamp: Date.now()
+    }));
+    console.log('Generated new shuffle seed:', newSeed);
+  } catch (error) {
+    console.warn('Failed to cache shuffle seed:', error);
+  }
+
+  return newSeed;
+}
+
+// Seeded random number generator (LCG algorithm)
+function seededRandom(seed) {
+  const x = Math.sin(seed) * 10000;
+  return x - Math.floor(x);
+}
+
+// Utility: Shuffle array using Fisher-Yates algorithm with seed
+function shuffleArrayWithSeed(array, seedString) {
   const shuffled = [...array];
+  let seed = parseInt(seedString, 10) || Date.now();
+
   for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
+    // Generate seeded random number
+    seed = (seed * 9301 + 49297) % 233280;
+    const randomValue = seed / 233280;
+
+    const j = Math.floor(randomValue * (i + 1));
     [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
   }
+
   return shuffled;
 }
 
@@ -114,8 +164,9 @@ function renderVideos() {
         return categories.includes(currentCategory);
       });
 
-  // Randomize the filtered videos
-  const randomizedVideos = shuffleArray(filteredVideos);
+  // Randomize the filtered videos with cached seed (preserves order for 1 hour)
+  const seed = getShuffleSeed();
+  const randomizedVideos = shuffleArrayWithSeed(filteredVideos, seed);
 
   // Render video cards
   if (randomizedVideos.length === 0) {
