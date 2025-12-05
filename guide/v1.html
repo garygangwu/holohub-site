@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holo Player Guide - How to Play 3D Videos</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        /* Guide-specific styles */
+        body {
+            background: transparent;
+            padding: 20px;
+            padding-top: 20px;
+        }
+
+        .guide-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .guide-header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 30px 20px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .guide-header h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .guide-header p {
+            color: #b3b3b3;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .format-section {
+            margin-bottom: 50px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .format-header {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid rgba(102, 126, 234, 0.3);
+        }
+
+        .format-header h2 {
+            font-size: 1.8rem;
+            color: #ffffff;
+            margin-bottom: 8px;
+        }
+
+        .format-header .format-subtitle {
+            color: #667eea;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        .format-comparison {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 25px;
+        }
+
+        .comparison-item {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .comparison-item h3 {
+            padding: 15px;
+            background: rgba(102, 126, 234, 0.2);
+            color: #ffffff;
+            font-size: 1.1rem;
+            text-align: center;
+            margin: 0;
+        }
+
+        .comparison-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .use-case {
+            margin-top: 20px;
+            padding: 15px;
+            background: rgba(76, 175, 80, 0.1);
+            border-left: 4px solid #4CAF50;
+            border-radius: 8px;
+        }
+
+        .use-case h4 {
+            color: #4CAF50;
+            font-size: 1rem;
+            margin-bottom: 8px;
+        }
+
+        .use-case p {
+            color: #e6e6e6;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .format-comparison {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="guide-container">
+        <!-- Header -->
+        <div class="guide-header">
+            <h1>📖 How to Play 3D Videos</h1>
+            <p>VR videos come in different formats. Choose the format that matches your video for the best viewing experience.</p>
+        </div>
+
+        <!-- Format 1: VR360 Monoscopic -->
+        <div class="format-section">
+            <div class="format-header">
+                <h2>🌐 VR360 - Equirectangular Monoscopic</h2>
+                <div class="format-subtitle">360° video that wraps around you</div>
+            </div>
+
+            <div class="format-comparison">
+                <div class="comparison-item">
+                    <h3>⚙️ Settings Menu</h3>
+                    <img src="v1_assets/vr360.png" alt="VR360 Settings">
+                </div>
+                <div class="comparison-item">
+                    <h3>🎬 Raw Video Frame</h3>
+                    <img src="v1_assets/vr360_mono.png" alt="VR360 Video Frame">
+                </div>
+            </div>
+
+            <div class="use-case">
+                <h4>✅ Use this for:</h4>
+                <p>Standard 360° videos • Travel and tourism videos • Concerts and events • Most web-based 360° content</p>
+            </div>
+        </div>
+
+        <!-- Format 2: Side-by-Side (SBS) -->
+        <div class="format-section">
+            <div class="format-header">
+                <h2>👁️👁️ Side-by-Side (SBS) - VR180 Stereoscopic</h2>
+                <div class="format-subtitle">3D videos with depth perception</div>
+            </div>
+
+            <div class="format-comparison">
+                <div class="comparison-item">
+                    <h3>⚙️ Settings Menu</h3>
+                    <img src="v1_assets/sbs.png" alt="Side-by-Side Settings">
+                </div>
+                <div class="comparison-item">
+                    <h3>🎬 Raw Video Frame</h3>
+                    <img src="v1_assets/sbs_mono.png" alt="Side-by-Side Video Frame">
+                </div>
+            </div>
+
+            <div class="use-case">
+                <h4>✅ Use this for:</h4>
+                <p>VR180 videos • 3D VR experiences with depth • Stereoscopic 180° content • Videos labeled "3D" or "SBS"</p>
+            </div>
+        </div>
+
+        <!-- Format 3: Top-Bottom (Over-Under) -->
+        <div class="format-section">
+            <div class="format-header">
+                <h2>⬆️⬇️ Top-Bottom (Over-Under) - VR180 Stereoscopic</h2>
+                <div class="format-subtitle">3D videos stacked vertically</div>
+            </div>
+
+            <div class="format-comparison">
+                <div class="comparison-item">
+                    <h3>⚙️ Settings Menu</h3>
+                    <img src="v1_assets/ou.png" alt="Top-Bottom Settings">
+                </div>
+                <div class="comparison-item">
+                    <h3>🎬 Raw Video Frame</h3>
+                    <img src="v1_assets/ou_vr180.png" alt="Top-Bottom Video Frame">
+                </div>
+            </div>
+
+            <div class="use-case">
+                <h4>✅ Use this for:</h4>
+                <p>VR180 videos • 3D VR180 content • Videos labeled "3D OU" or "Over-Under" • Alternative stereoscopic format</p>
+            </div>
+        </div>
+
+        <!-- Format 4: Cubemap (EAC) -->
+        <div class="format-section">
+            <div class="format-header">
+                <h2>🎲 Cubemap (EAC) - Equi-Angular Cubemap</h2>
+                <div class="format-subtitle">High-quality 360° video format</div>
+            </div>
+
+            <div class="format-comparison">
+                <div class="comparison-item">
+                    <h3>⚙️ Settings Menu</h3>
+                    <img src="v1_assets/eac.png" alt="Cubemap EAC Settings">
+                </div>
+                <div class="comparison-item">
+                    <h3>🎬 Raw Video Frame</h3>
+                    <img src="v1_assets/eac_mono.png" alt="Cubemap EAC Video Frame">
+                </div>
+            </div>
+
+            <div class="use-case">
+                <h4>✅ Use this for:</h4>
+                <p>High-quality 360° videos • Professional VR productions • Content with a grid or cube pattern • Videos labeled "EAC" or "Cubemap"</p>
+            </div>
+        </div>
+
+        <!-- Format 5: Flat Screen -->
+        <div class="format-section">
+            <div class="format-header">
+                <h2>📺 Flat Screen</h2>
+                <div class="format-subtitle">Regular 2D videos on a virtual screen</div>
+            </div>
+
+            <div class="format-comparison">
+                <div class="comparison-item">
+                    <h3>⚙️ Settings Menu</h3>
+                    <img src="v1_assets/flat.png" alt="Flat Screen Settings">
+                </div>
+                <div class="comparison-item" style="display: flex; align-items: center; justify-content: center; background: rgba(0,0,0,0.5);">
+                    <p style="color: #888; padding: 40px; text-align: center;">
+                        Any regular video<br>
+                        (movies, TV shows, etc.)
+                    </p>
+                </div>
+            </div>
+
+            <div class="use-case">
+                <h4>✅ Use this for:</h4>
+                <p>Regular movies and TV shows • Non-360° videos • Local video files • Standard web videos</p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div style="margin-top: 40px; padding: 30px; text-align: center; background: rgba(102, 126, 234, 0.1); border-radius: 16px;">
+            <p style="color: #e6e6e6; line-height: 1.8; margin-bottom: 10px;">
+                Match your video to the format above. You can always change settings while watching!
+            </p>
+            <p style="color: #888; font-size: 0.9rem;">
+                Questions? Visit <a href="https://holohub.com" style="color: #667eea; text-decoration: none;">holohub.com</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
