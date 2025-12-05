@@ -2,16 +2,19 @@
   {
     "title": "How to Play 3D Videos",
     "subtitle": "Learn about stereo modes and projection types",
-    "url": "https://www.holohub.com/guide/v1.html"
+    "url": "https://www.holohub.com/guide/v1.html",
+    "icon": "book.fill"
   },
   {
     "title": "About",
     "subtitle": "Learn more about Holo Player",
-    "url": "https://www.holohub.com/more/about.html"
+    "url": "https://www.holohub.com/more/about.html",
+    "icon": "info.circle.fill"
   },
   {
     "title": "Contact",
     "subtitle": "Share feedback and report bugs",
-    "url": "https://www.holohub.com/more/contact.html"
+    "url": "https://www.holohub.com/more/contact.html",
+    "icon": "envelope.fill"
   }
 ]
