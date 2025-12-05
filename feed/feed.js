@@ -37,38 +37,13 @@ function shuffleArray(array) {
   return shuffled;
 }
 
-// Utility: Check if an image URL loads successfully
-function checkImageLoads(url) {
-  return new Promise((resolve) => {
-    const img = new Image();
-    img.onload = () => resolve(true);
-    img.onerror = () => resolve(false);
-    img.src = url;
-  });
-}
-
-// Filter videos with valid thumbnails
-async function filterVideosWithValidThumbnails(videos) {
-  const validationResults = await Promise.all(
-    videos.map(async (video) => {
-      const isValid = await checkImageLoads(video.thumbnail);
-      return { video, isValid };
-    })
-  );
-
-  const validVideos = validationResults
-    .filter(result => result.isValid)
-    .map(result => result.video);
-
-  // Log skipped videos for debugging
-  const skippedVideos = validationResults.filter(result => !result.isValid);
-  if (skippedVideos.length > 0) {
-    console.warn(`Skipped ${skippedVideos.length} video(s) with failed thumbnails:`,
-      skippedVideos.map(r => ({ title: r.video.title, thumbnail: r.video.thumbnail }))
-    );
+// Handle thumbnail load error - hide the video card
+function handleThumbnailError(event, videoTitle, thumbnailUrl) {
+  const videoCard = event.target.closest('.video-card');
+  if (videoCard) {
+    videoCard.style.display = 'none';
+    console.warn(`Thumbnail failed to load for video: "${videoTitle}"`, thumbnailUrl);
   }
-
-  return validVideos;
 }
 
 // Initialize
@@ -77,7 +52,7 @@ async function init() {
     showLoading();
     await fetchFeedData();
     renderCategories();
-    await renderVideos();
+    renderVideos();
     hideLoading();
   } catch (error) {
     console.error('Failed to load feed:', error);
@@ -128,7 +103,7 @@ function renderCategories() {
 }
 
 // Render videos based on current category
-async function renderVideos() {
+function renderVideos() {
   if (!feedData || !feedData.videos) return;
 
   // Filter videos by category (handle multi-category videos)
@@ -139,11 +114,8 @@ async function renderVideos() {
         return categories.includes(currentCategory);
       });
 
-  // Filter out videos with failed thumbnails
-  const validVideos = await filterVideosWithValidThumbnails(filteredVideos);
-
   // Randomize the filtered videos
-  const randomizedVideos = shuffleArray(validVideos);
+  const randomizedVideos = shuffleArray(filteredVideos);
 
   // Render video cards
   if (randomizedVideos.length === 0) {
@@ -157,6 +129,9 @@ async function renderVideos() {
 
   videoGridContainer.innerHTML = randomizedVideos.map(video => {
     const platformIcon = platformIcons[video.platform] || platformIcons['Default'];
+    // Escape quotes for inline event handler
+    const escapedTitle = video.title.replace(/'/g, "\\'");
+    const escapedThumbnail = video.thumbnail.replace(/'/g, "\\'");
 
     return `
       <a href="${video.url}" class="video-card">
@@ -165,6 +140,7 @@ async function renderVideos() {
           alt="${video.title}"
           class="video-thumbnail"
           loading="lazy"
+          onerror="handleThumbnailError(event, '${escapedTitle}', '${escapedThumbnail}')"
         >
         <div class="video-info">
           <h3 class="video-title">${video.title}</h3>
@@ -179,7 +155,7 @@ async function renderVideos() {
 }
 
 // Filter videos by category
-async function filterByCategory(categoryId) {
+function filterByCategory(categoryId) {
   currentCategory = categoryId;
 
   // Update active category pill
@@ -188,7 +164,7 @@ async function filterByCategory(categoryId) {
   });
 
   // Re-render videos
-  await renderVideos();
+  renderVideos();
 }
 
 // Show loading state
