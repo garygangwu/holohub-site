@@ -17,7 +17,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: transparent;
             padding: 20px;
         }
 
@@ -27,22 +27,24 @@
         }
 
         .card {
-            background: white;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
             border-radius: 20px;
             padding: 40px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
             text-align: center;
+            backdrop-filter: blur(10px);
         }
 
         h1 {
             font-size: 28px;
             margin-bottom: 15px;
-            color: #333;
+            color: rgba(255, 255, 255, 0.95);
         }
 
         .subtitle {
             font-size: 16px;
-            color: #666;
+            color: rgba(255, 255, 255, 0.7);
             margin-bottom: 30px;
             line-height: 1.5;
         }
@@ -66,7 +68,7 @@
             margin-top: 30px;
         }
 
-        button {
+        button, .join-btn {
             padding: 18px 24px;
             font-size: 17px;
             border-radius: 12px;
@@ -76,7 +78,7 @@
             transition: transform 0.1s, box-shadow 0.1s;
         }
 
-        button:active {
+        button:active, .join-btn:active {
             transform: scale(0.98);
         }
 
@@ -84,6 +86,9 @@
             background: #5865F2;
             color: white;
             box-shadow: 0 4px 12px rgba(88, 101, 242, 0.4);
+            display: block;
+            text-decoration: none;
+            text-align: center;
         }
 
         .join-btn:hover {
@@ -92,34 +97,36 @@
         }
 
         .share-btn {
-            background: #f0f0f0;
-            color: #333;
+            background: rgba(255, 255, 255, 0.12);
+            color: rgba(255, 255, 255, 0.9);
+            border: 1px solid rgba(255, 255, 255, 0.2);
         }
 
         .share-btn:hover {
-            background: #e0e0e0;
+            background: rgba(255, 255, 255, 0.18);
         }
 
         .copy-btn {
-            background: #e8e8e8;
-            color: #555;
+            background: rgba(255, 255, 255, 0.08);
+            color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.15);
         }
 
         .copy-btn:hover {
-            background: #d8d8d8;
+            background: rgba(255, 255, 255, 0.14);
         }
 
         .help-text {
             margin-top: 30px;
             padding-top: 20px;
-            border-top: 1px solid #e0e0e0;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
             font-size: 14px;
-            color: #888;
+            color: rgba(255, 255, 255, 0.6);
             line-height: 1.6;
         }
 
         .help-text strong {
-            color: #555;
+            color: rgba(255, 255, 255, 0.85);
         }
 
         .toast {
@@ -152,10 +159,10 @@
             <div class="link-display">discord.gg/kAdq9fVwFd</div>
 
             <div class="buttons">
-                <!-- Primary action: Join directly -->
-                <button class="join-btn" onclick="joinDiscord()">
-                    🚀 Join Discord Now
-                </button>
+                <!-- Primary action: Join directly (opens in Safari) -->
+                <a href="https://discord.gg/kAdq9fVwFd" class="join-btn">
+                    🚀 Open Discord in Safari
+                </a>
 
                 <!-- Share to iPhone/Mac -->
                 <button class="share-btn" onclick="shareLink()">
@@ -169,7 +176,7 @@
             </div>
 
             <div class="help-text">
-                <strong>💡 Tip:</strong> Tap "Send to My iPhone" to use AirDrop, Messages, or Mail to open this link on your phone without typing!
+                <strong>💡 Quick Join:</strong> Tap "Open Discord in Safari" to join immediately, or tap "Send to My iPhone" to use AirDrop!
             </div>
         </div>
     </div>
@@ -178,11 +185,6 @@
     <div id="toast" class="toast"></div>
 
     <script>
-        function joinDiscord() {
-            // Directly open Discord invite link
-            window.location.href = 'https://discord.gg/kAdq9fVwFd';
-        }
-
         function shareLink() {
             // Check if Web Share API is available (Vision Pro Safari supports this)
             if (navigator.share) {
