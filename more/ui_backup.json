@@ -6,6 +6,12 @@
     "icon": "book.fill"
   },
   {
+    "title": "Join Discord Community",
+    "subtitle": "Chat with other VR enthusiasts and get support",
+    "url": "https://www.holohub.com/more/discord.html",
+    "icon": "person.3.fill"
+  },
+  {
     "title": "About",
     "subtitle": "Learn more about Holo Player",
     "url": "https://www.holohub.com/more/about.html",
