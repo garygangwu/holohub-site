@@ -438,12 +438,6 @@
         "projectionType": "vr360"
     },
     {
-        "id": "dvQZH5xYg0Y",
-        "platform": "YouTube",
-        "stereoMode": "monoscopic",
-        "projectionType": "vr360"
-    },
-    {
         "id": "eE0dX8GsIgE",
         "platform": "YouTube",
         "stereoMode": "monoscopic",
@@ -765,6 +759,12 @@
         "id": "7ohzYII08eQ",
         "platform": "YouTube",
         "stereoMode": "monoscopic",
+        "projectionType": "vr360"
+    },
+    {
+        "id": "rcsev4e9DoI",
+        "platform": "YouTube",
+        "stereoMode": "overUnder",
         "projectionType": "vr360"
     },
     {

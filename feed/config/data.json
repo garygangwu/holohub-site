@@ -8,7 +8,7 @@
         {
             "id": "travel",
             "name": "Travel",
-            "count": 47
+            "count": 46
         },
         {
             "id": "nature",
@@ -28,12 +28,12 @@
         {
             "id": "entertainment",
             "name": "Entertainment",
-            "count": 22
+            "count": 23
         },
         {
             "id": "city",
             "name": "City",
-            "count": 21
+            "count": 20
         },
         {
             "id": "animal",
@@ -818,16 +818,6 @@
             "projectionType": "vr360"
         },
         {
-            "title": "360 Abandoned building - location test with music",
-            "id": "dvQZH5xYg0Y",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=dvQZH5xYg0Y",
-            "thumbnail": "https://img.youtube.com/vi/dvQZH5xYg0Y/hqdefault.jpg",
-            "category": "Travel / City / Cultural",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
             "title": "Jared Leto Tour Guides Alaska's Melting Glaciers in 360°: Ready For 100",
             "platform": "YouTube",
             "id": "eE0dX8GsIgE",
@@ -1394,6 +1384,16 @@
             "thumbnail": "https://img.youtube.com/vi/7ohzYII08eQ/hqdefault.jpg",
             "category": "Entertainment / Music / Relaxation",
             "stereoMode": "monoscopic",
+            "projectionType": "vr360"
+        },
+        {
+            "title": "The Modern Olympic Games | 360 VR Video | The New York Times",
+            "id": "rcsev4e9DoI",
+            "platform": "YouTube",
+            "url": "https://www.youtube.com/watch?v=rcsev4e9DoI",
+            "thumbnail": "https://img.youtube.com/vi/rcsev4e9DoI/hqdefault.jpg",
+            "category": "Entertainment / Cultural",
+            "stereoMode": "overUnder",
             "projectionType": "vr360"
         }
     ]
