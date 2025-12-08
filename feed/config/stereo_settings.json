@@ -766,5 +766,11 @@
         "platform": "YouTube",
         "stereoMode": "monoscopic",
         "projectionType": "vr360"
+    },
+    {
+        "id": "unknown",
+        "platform": "VRPorn",
+        "stereoMode": "sideBySide",
+        "projectionType": "vr180"
     }
 ]
