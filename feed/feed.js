@@ -158,7 +158,11 @@ function renderVideos() {
 
   // Filter videos by category (handle multi-category videos)
   const filteredVideos = currentCategory === 'all'
-    ? feedData.videos
+    ? feedData.videos.filter(video => {
+        // Exclude Horror videos from "all" category
+        const categories = parseCategories(video.category);
+        return !categories.includes('horror');
+      })
     : feedData.videos.filter(video => {
         const categories = parseCategories(video.category);
         return categories.includes(currentCategory);
