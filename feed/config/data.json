@@ -1206,7 +1206,7 @@
             "thumbnail": "https://i.ytimg.com/vi/AR9_SZtJ_KU/maxresdefault.jpg",
             "duration": 145,
             "category": "Travel / City",
-            "stereoMode": "monoscopic",
+            "stereoMode": "overUnder",
             "projectionType": "vr360"
         },
         {

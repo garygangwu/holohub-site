@@ -656,7 +656,7 @@
     {
         "id": "AR9_SZtJ_KU",
         "platform": "YouTube",
-        "stereoMode": "monoscopic",
+        "stereoMode": "overUnder",
         "projectionType": "vr360"
     },
     {
