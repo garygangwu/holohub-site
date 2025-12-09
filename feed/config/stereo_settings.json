@@ -360,12 +360,6 @@
         "projectionType": "vr360"
     },
     {
-        "id": "vr360:8",
-        "platform": "Odysee",
-        "stereoMode": "monoscopic",
-        "projectionType": "eac"
-    },
-    {
         "id": "3d-belly-dancing-oriental-vr-3d:a",
         "platform": "Odysee",
         "stereoMode": "sideBySide",
@@ -444,12 +438,6 @@
         "projectionType": "vr360"
     },
     {
-        "id": "lWDqeWFJdp4",
-        "platform": "YouTube",
-        "stereoMode": "monoscopic",
-        "projectionType": "vr360"
-    },
-    {
         "id": "T-aOVE22lEw",
         "platform": "YouTube",
         "stereoMode": "monoscopic",
@@ -459,12 +447,6 @@
         "id": "-xNN-bJQ4vI",
         "platform": "YouTube",
         "stereoMode": "monoscopic",
-        "projectionType": "vr360"
-    },
-    {
-        "id": "lnh53i6RqQc",
-        "platform": "YouTube",
-        "stereoMode": "overUnder",
         "projectionType": "vr360"
     },
     {
@@ -486,25 +468,7 @@
         "projectionType": "vr360"
     },
     {
-        "id": "ecavbpCuvkI",
-        "platform": "YouTube",
-        "stereoMode": "monoscopic",
-        "projectionType": "vr360"
-    },
-    {
-        "id": "5tasUGQ1898",
-        "platform": "YouTube",
-        "stereoMode": "monoscopic",
-        "projectionType": "vr360"
-    },
-    {
         "id": "CIbo0xLbNic",
-        "platform": "YouTube",
-        "stereoMode": "monoscopic",
-        "projectionType": "vr360"
-    },
-    {
-        "id": "pHX3U4B6BCk",
         "platform": "YouTube",
         "stereoMode": "monoscopic",
         "projectionType": "vr360"
@@ -517,12 +481,6 @@
     },
     {
         "id": "CDfsFuDuHds",
-        "platform": "YouTube",
-        "stereoMode": "monoscopic",
-        "projectionType": "vr360"
-    },
-    {
-        "id": "jH32c4rVHuI",
         "platform": "YouTube",
         "stereoMode": "monoscopic",
         "projectionType": "vr360"
@@ -612,18 +570,6 @@
         "projectionType": "vr360"
     },
     {
-        "id": "h6PF38WAhiA",
-        "platform": "YouTube",
-        "stereoMode": "monoscopic",
-        "projectionType": "vr180"
-    },
-    {
-        "id": "c7sA3EdXSUQ",
-        "platform": "YouTube",
-        "stereoMode": "monoscopic",
-        "projectionType": "vr360"
-    },
-    {
         "id": "g6w6xkQeSHg",
         "platform": "YouTube",
         "stereoMode": "monoscopic",
@@ -639,12 +585,6 @@
         "id": "2x3G7_7XYR4",
         "platform": "YouTube",
         "stereoMode": "monoscopic",
-        "projectionType": "vr360"
-    },
-    {
-        "id": "AR9_SZtJ_KU",
-        "platform": "YouTube",
-        "stereoMode": "overUnder",
         "projectionType": "vr360"
     },
     {
@@ -678,12 +618,6 @@
         "projectionType": "vr360"
     },
     {
-        "id": "JtAzMFcUQ90",
-        "platform": "YouTube",
-        "stereoMode": "monoscopic",
-        "projectionType": "vr360"
-    },
-    {
         "id": "MKWWhf8RAV8",
         "platform": "YouTube",
         "stereoMode": "monoscopic",
@@ -696,27 +630,9 @@
         "projectionType": "vr360"
     },
     {
-        "id": "UaXjcIl-6q8",
-        "platform": "YouTube",
-        "stereoMode": "overUnder",
-        "projectionType": "vr360"
-    },
-    {
         "id": "NakltvfbYk0",
         "platform": "YouTube",
         "stereoMode": "monoscopic",
-        "projectionType": "vr360"
-    },
-    {
-        "id": "YCR99ug9Zao",
-        "platform": "YouTube",
-        "stereoMode": "overUnder",
-        "projectionType": "vr360"
-    },
-    {
-        "id": "_bXgW6ZD6wM",
-        "platform": "YouTube",
-        "stereoMode": "overUnder",
         "projectionType": "vr360"
     },
     {
@@ -756,9 +672,123 @@
         "projectionType": "vr360"
     },
     {
-        "id": "rcsev4e9DoI",
-        "platform": "YouTube",
+        "id": "coffee-date-%E2%80%A2-pov-180-degrees-with:c",
+        "platform": "Odysee",
+        "stereoMode": "sideBySide",
+        "projectionType": "vr180"
+    },
+    {
+        "id": "new-coffee-date-%E2%80%A2-pov-180-degrees-with:2",
+        "platform": "Odysee",
+        "stereoMode": "sideBySide",
+        "projectionType": "vr180"
+    },
+    {
+        "id": "The-PyeongChang-2018-Opening-Ceremony---180%C2%B0-VR-Edition!-_-Olympic-Channel:8",
+        "platform": "Odysee",
         "stereoMode": "overUnder",
+        "projectionType": "flatScreen"
+    },
+    {
+        "id": "aerial-hoop-girl-in-destroyed-town-%E2%80%A2:d",
+        "platform": "Odysee",
+        "stereoMode": "sideBySide",
+        "projectionType": "vr180"
+    },
+    {
+        "id": "x8ldo2i",
+        "platform": "Dailymotion",
+        "stereoMode": "monoscopic",
+        "projectionType": "vr180"
+    },
+    {
+        "id": "x8ldnsg",
+        "platform": "Dailymotion",
+        "stereoMode": "monoscopic",
+        "projectionType": "vr180"
+    },
+    {
+        "id": "x6j51vc",
+        "platform": "Dailymotion",
+        "stereoMode": "sideBySide",
+        "projectionType": "fisheye"
+    },
+    {
+        "id": "x3zgip0",
+        "platform": "Dailymotion",
+        "stereoMode": "sideBySide",
+        "projectionType": "flatScreen"
+    },
+    {
+        "id": "TkxcApO4tJ8",
+        "platform": "YouTube",
+        "stereoMode": "monoscopic",
+        "projectionType": "vr360"
+    },
+    {
+        "id": "WbFfzvry_5M",
+        "platform": "YouTube",
+        "stereoMode": "monoscopic",
+        "projectionType": "vr360"
+    },
+    {
+        "id": "8ge4IAfd2LI",
+        "platform": "YouTube",
+        "stereoMode": "monoscopic",
+        "projectionType": "vr360"
+    },
+    {
+        "id": "D7HNXHYDPw0",
+        "platform": "YouTube",
+        "stereoMode": "monoscopic",
+        "projectionType": "vr360"
+    },
+    {
+        "id": "yPhR37ob94M",
+        "platform": "YouTube",
+        "stereoMode": "monoscopic",
+        "projectionType": "vr360"
+    },
+    {
+        "id": "qq1dTbrG264",
+        "platform": "YouTube",
+        "stereoMode": "monoscopic",
+        "projectionType": "vr360"
+    },
+    {
+        "id": "FwW7rbi1Vo0",
+        "platform": "YouTube",
+        "stereoMode": "monoscopic",
+        "projectionType": "vr360"
+    },
+    {
+        "id": "-1ic9EV5G5U",
+        "platform": "YouTube",
+        "stereoMode": "monoscopic",
+        "projectionType": "vr360"
+    },
+    {
+        "id": "0mxBdqjOdZ0",
+        "platform": "YouTube",
+        "stereoMode": "monoscopic",
+        "projectionType": "vr360"
+    },
+    {
+        "id": "7Gmu3P-Pi0E",
+        "platform": "YouTube",
+        "stereoMode": "monoscopic",
+        "projectionType": "vr360"
+    },
+    {
+        "id": "ejGcvyljyY0",
+        "platform": "YouTube",
+        "stereoMode": "monoscopic",
+        "projectionType": "vr360"
+    },
+    {
+        "id": "eVT0IbGabtA",
+        "platform": "YouTube",
+        "stereoMode": "monoscopic",
         "projectionType": "vr360"
     },
     {
