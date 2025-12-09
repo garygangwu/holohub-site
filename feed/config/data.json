@@ -3,12 +3,12 @@
         {
             "id": "all",
             "name": "All Videos",
-            "count": 222
+            "count": 221
         },
         {
             "id": "nature",
             "name": "Nature",
-            "count": 88
+            "count": 87
         },
         {
             "id": "gaming",
@@ -23,7 +23,7 @@
         {
             "id": "relaxation",
             "name": "Relaxation",
-            "count": 63
+            "count": 62
         },
         {
             "id": "adventure",
@@ -38,7 +38,7 @@
         {
             "id": "travel",
             "name": "Travel",
-            "count": 37
+            "count": 36
         },
         {
             "id": "3d demo",
@@ -927,17 +927,6 @@
             "thumbnail": "https://i.ytimg.com/vi/HvD5eqaW_Tw/maxresdefault.jpg",
             "duration": 187,
             "category": "Travel / City / Cultural",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Haleakala National Park Sunrise Time-Lapse 360 Video",
-            "platform": "YouTube",
-            "id": "0wRrxY_a_u0",
-            "url": "https://www.youtube.com/watch?v=0wRrxY_a_u0",
-            "thumbnail": "https://i.ytimg.com/vi/0wRrxY_a_u0/maxresdefault.jpg",
-            "duration": 38,
-            "category": "Travel / Nature / Relaxation",
             "stereoMode": "monoscopic",
             "projectionType": "vr360"
         },
