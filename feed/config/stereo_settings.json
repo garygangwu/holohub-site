@@ -210,12 +210,6 @@
         "projectionType": "flatScreen"
     },
     {
-        "id": "x5ifqud",
-        "platform": "Dailymotion",
-        "stereoMode": "sideBySide",
-        "projectionType": "flatScreen"
-    },
-    {
         "id": "x97bldm",
         "platform": "Dailymotion",
         "stereoMode": "sideBySide",
@@ -504,12 +498,6 @@
         "projectionType": "vr360"
     },
     {
-        "id": "qzNv2jwrcuM",
-        "platform": "YouTube",
-        "stereoMode": "monoscopic",
-        "projectionType": "vr360"
-    },
-    {
         "id": "0wRrxY_a_u0",
         "platform": "YouTube",
         "stereoMode": "monoscopic",
@@ -625,12 +613,6 @@
     },
     {
         "id": "lDwYdPmZMEE",
-        "platform": "YouTube",
-        "stereoMode": "monoscopic",
-        "projectionType": "vr360"
-    },
-    {
-        "id": "NakltvfbYk0",
         "platform": "YouTube",
         "stereoMode": "monoscopic",
         "projectionType": "vr360"
@@ -787,6 +769,12 @@
     },
     {
         "id": "eVT0IbGabtA",
+        "platform": "YouTube",
+        "stereoMode": "monoscopic",
+        "projectionType": "vr360"
+    },
+    {
+        "id": "S4Xa-vhq-6Q",
         "platform": "YouTube",
         "stereoMode": "monoscopic",
         "projectionType": "vr360"

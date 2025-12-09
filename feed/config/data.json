@@ -3,67 +3,67 @@
         {
             "id": "all",
             "name": "All Videos",
-            "count": 231
+            "count": 222
         },
         {
             "id": "nature",
             "name": "Nature",
-            "count": 92
-        },
-        {
-            "id": "cultural",
-            "name": "Cultural",
-            "count": 67
+            "count": 88
         },
         {
             "id": "gaming",
             "name": "Gaming",
-            "count": 67
+            "count": 64
+        },
+        {
+            "id": "cultural",
+            "name": "Cultural",
+            "count": 63
         },
         {
             "id": "relaxation",
             "name": "Relaxation",
-            "count": 67
+            "count": 63
         },
         {
             "id": "adventure",
             "name": "Adventure",
-            "count": 59
+            "count": 58
         },
         {
             "id": "entertainment",
             "name": "Entertainment",
-            "count": 55
+            "count": 54
         },
         {
             "id": "travel",
             "name": "Travel",
-            "count": 39
-        },
-        {
-            "id": "city",
-            "name": "City",
-            "count": 31
+            "count": 37
         },
         {
             "id": "3d demo",
             "name": "3d demo",
-            "count": 30
+            "count": 29
+        },
+        {
+            "id": "city",
+            "name": "City",
+            "count": 28
         },
         {
             "id": "horror",
             "name": "Horror",
-            "count": 29
+            "count": 28
         },
         {
             "id": "sports",
             "name": "Sports",
-            "count": 26
+            "count": 24
         },
         {
             "id": "aerial",
             "name": "Aerial",
-            "count": 21
+            "count": 20
         },
         {
             "id": "animal",
@@ -76,13 +76,13 @@
             "count": 18
         },
         {
-            "id": "fantasy",
-            "name": "Fantasy",
-            "count": 13
-        },
-        {
             "id": "music",
             "name": "Music",
+            "count": 11
+        },
+        {
+            "id": "fantasy",
+            "name": "Fantasy",
             "count": 11
         },
         {
@@ -443,16 +443,6 @@
             "platform": "Dailymotion",
             "url": "http://dailymotion.com/video/x3gqxiy",
             "thumbnail": "https://www.dailymotion.com/thumbnail/video/x3gqxiy",
-            "category": "3D Demo",
-            "stereoMode": "sideBySide",
-            "projectionType": "flatScreen"
-        },
-        {
-            "title": "Pretty Girl VR Part 2 Exhibit car show",
-            "id": "x5ifqud",
-            "platform": "Dailymotion",
-            "url": "https://www.dailymotion.com/video/x5ifqud",
-            "thumbnail": "https://www.dailymotion.com/thumbnail/video/x5ifqud",
             "category": "3D Demo",
             "stereoMode": "sideBySide",
             "projectionType": "flatScreen"
@@ -941,17 +931,6 @@
             "projectionType": "vr360"
         },
         {
-            "title": "360VR Video Maldives 360° beach and resort",
-            "platform": "YouTube",
-            "id": "qzNv2jwrcuM",
-            "url": "https://www.youtube.com/watch?v=qzNv2jwrcuM",
-            "thumbnail": "https://i.ytimg.com/vi/qzNv2jwrcuM/maxresdefault.jpg",
-            "duration": 139,
-            "category": "Travel / Nature / Relaxation",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
             "title": "Haleakala National Park Sunrise Time-Lapse 360 Video",
             "platform": "YouTube",
             "id": "0wRrxY_a_u0",
@@ -1167,16 +1146,6 @@
             "url": "https://www.youtube.com/watch?v=lDwYdPmZMEE",
             "thumbnail": "https://img.youtube.com/vi/lDwYdPmZMEE/hqdefault.jpg",
             "category": "Animal / Nature",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Tour England In Beautiful Virtual Reality! 🇬🇧 (360 Video)",
-            "id": "NakltvfbYk0",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=NakltvfbYk0",
-            "thumbnail": "https://img.youtube.com/vi/NakltvfbYk0/hqdefault.jpg",
-            "category": "Travel / City / Cultural",
             "stereoMode": "monoscopic",
             "projectionType": "vr360"
         },
@@ -1769,22 +1738,6 @@
             "category": "Adventure / Sports"
         },
         {
-            "id": "2J5yRYkTj2k",
-            "title": "Find Zootopia in 360° VR",
-            "url": "https://www.youtube.com/watch?v=2J5yRYkTj2k",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/2J5yRYkTj2k/hqdefault.jpg",
-            "category": "Entertainment / Fantasy"
-        },
-        {
-            "id": "PMETgs5I5DY",
-            "title": "The Deer 99 Nights Chase you in the city! 360° VR",
-            "url": "https://www.youtube.com/watch?v=PMETgs5I5DY",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/PMETgs5I5DY/hqdefault.jpg",
-            "category": "Nature / City / Gaming"
-        },
-        {
             "id": "jfPymvIumNo",
             "title": "Find Pipi Fmaily 360° VR",
             "url": "https://www.youtube.com/watch?v=jfPymvIumNo",
@@ -1823,14 +1776,6 @@
             "platform": "YouTube",
             "thumbnail": "https://img.youtube.com/vi/1oM7tzpjL4U/hqdefault.jpg",
             "category": "Gaming / Sports / Adventure"
-        },
-        {
-            "id": "AQ_QG7MMpCY",
-            "title": "GOALKEEPER POV VR 360° | Can You Save 10 Penalty Kicks? | Virtual Reality Football",
-            "url": "https://www.youtube.com/watch?v=AQ_QG7MMpCY",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/AQ_QG7MMpCY/hqdefault.jpg",
-            "category": "Gaming / Sports"
         },
         {
             "id": "NqEQZsMeFUA",
@@ -1953,14 +1898,6 @@
             "category": "Relaxation / Horror / Gaming / Adventure"
         },
         {
-            "id": "bIj7C7GPsRc",
-            "title": "VR 360° Bananexx Roblox Movie Compilation!",
-            "url": "https://www.youtube.com/watch?v=bIj7C7GPsRc",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/bIj7C7GPsRc/hqdefault.jpg",
-            "category": "Gaming / Horror / Adventure"
-        },
-        {
             "id": "GR7fgtWIflw",
             "title": "360° THE BOY NEXT DOOR: My Student Is The Hottest Guy In College, And He Likes Me in VR",
             "url": "https://www.youtube.com/watch?v=GR7fgtWIflw",
@@ -2009,12 +1946,14 @@
             "category": "Gaming / Adventure / Fantasy / Sports"
         },
         {
-            "id": "S4Xa-vhq-6Q",
             "title": "360° Roblox: A Thief Stole My Police Car! Rookie's First Day | VR Experience",
-            "url": "https://www.youtube.com/watch?v=S4Xa-vhq-6Q",
+            "id": "S4Xa-vhq-6Q",
             "platform": "YouTube",
+            "url": "https://www.youtube.com/watch?v=S4Xa-vhq-6Q",
             "thumbnail": "https://img.youtube.com/vi/S4Xa-vhq-6Q/hqdefault.jpg",
-            "category": "Gaming / Adventure / Fantasy / Sports"
+            "category": "Gaming / Adventure",
+            "stereoMode": "monoscopic",
+            "projectionType": "vr360"
         },
         {
             "id": "OhsckUqgOC4",
@@ -2209,14 +2148,6 @@
             "category": "Nature / City / Cultural / Relaxation"
         },
         {
-            "id": "_2JE9kvWkoc",
-            "title": "Vladivostok. One day tour. 16K 360° video",
-            "url": "https://www.youtube.com/watch?v=_2JE9kvWkoc",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/_2JE9kvWkoc/hqdefault.jpg",
-            "category": "Nature / Cultural / Relaxation"
-        },
-        {
             "id": "RW23Yw6cmeg",
             "title": "Baikal Lake, Russia. 360° video trailer in 8K",
             "url": "https://www.youtube.com/watch?v=RW23Yw6cmeg",
@@ -2231,14 +2162,6 @@
             "platform": "YouTube",
             "thumbnail": "https://img.youtube.com/vi/JBYi3T93wnE/hqdefault.jpg",
             "category": "Aerial / City / Relaxation / Cultural"
-        },
-        {
-            "id": "9Hne2D-vcYM",
-            "title": "New Year in Moscow. 360° trailer in 8K",
-            "url": "https://www.youtube.com/watch?v=9Hne2D-vcYM",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/9Hne2D-vcYM/hqdefault.jpg",
-            "category": "Cultural / City / Relaxation"
         },
         {
             "id": "Mc83fY0v3g8",
@@ -2399,14 +2322,6 @@
             "platform": "YouTube",
             "thumbnail": "https://img.youtube.com/vi/9JR1IekZGUY/hqdefault.jpg",
             "category": "Nature / Aerial / City / Relaxation"
-        },
-        {
-            "id": "kyN623RzFe0",
-            "title": "Trip to Tokyo, Japan. Aerial 360 video in 8K.",
-            "url": "https://www.youtube.com/watch?v=kyN623RzFe0",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/kyN623RzFe0/hqdefault.jpg",
-            "category": "Cultural / Aerial / Nature / Relaxation"
         },
         {
             "id": "PnfJDgS9VZc",
