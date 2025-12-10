@@ -3,7 +3,7 @@
         {
             "id": "all",
             "name": "All Videos",
-            "count": 221
+            "count": 220
         },
         {
             "id": "nature",
@@ -11,13 +11,13 @@
             "count": 87
         },
         {
-            "id": "gaming",
-            "name": "Gaming",
-            "count": 64
-        },
-        {
             "id": "cultural",
             "name": "Cultural",
+            "count": 63
+        },
+        {
+            "id": "gaming",
+            "name": "Gaming",
             "count": 63
         },
         {
@@ -41,13 +41,13 @@
             "count": 36
         },
         {
-            "id": "3d demo",
-            "name": "3d demo",
-            "count": 29
-        },
-        {
             "id": "city",
             "name": "City",
+            "count": 28
+        },
+        {
+            "id": "3d demo",
+            "name": "3d demo",
             "count": 28
         },
         {
@@ -1257,16 +1257,6 @@
             "category": "Animal",
             "stereoMode": "monoscopic",
             "projectionType": "vr180"
-        },
-        {
-            "title": "VR Video 3D T.A.N.K Virtual Reality 3D 4K",
-            "id": "x6j51vc",
-            "platform": "Dailymotion",
-            "url": "https://www.dailymotion.com/video/x6j51vc",
-            "thumbnail": "https://www.dailymotion.com/thumbnail/video/x6j51vc",
-            "category": "3D Demo / Gaming",
-            "stereoMode": "sideBySide",
-            "projectionType": "fisheye"
         },
         {
             "title": "4k 3d sbs MrBorm",
