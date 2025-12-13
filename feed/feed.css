@@ -13,6 +13,15 @@
 html {
   /* Prevent zoom on Vision Pro */
   touch-action: manipulation;
+
+  /* Disable text selection globally */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  /* Disable callout (long-press menu on iOS/visionOS) */
+  -webkit-touch-callout: none;
 }
 
 body {
@@ -27,6 +36,15 @@ body {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   touch-action: manipulation;
+
+  /* Disable text selection */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  /* Disable callout (long-press menu) */
+  -webkit-touch-callout: none;
 }
 
 /* Header */
@@ -40,6 +58,11 @@ body {
 .logo {
   height: 48px;
   width: auto;
+
+  /* Prevent dragging */
+  -webkit-user-drag: none;
+  user-select: none;
+  pointer-events: none;
 }
 
 .title {
@@ -92,6 +115,10 @@ body {
   transition: all 0.3s ease;
   white-space: nowrap;
   text-decoration: none;
+
+  /* Prevent dragging and context menu */
+  -webkit-user-drag: none;
+  -webkit-touch-callout: none;
 }
 
 .category-pill:hover {
@@ -125,6 +152,10 @@ body {
   text-decoration: none;
   color: inherit;
   display: block;
+
+  /* Prevent dragging and context menu */
+  -webkit-user-drag: none;
+  -webkit-touch-callout: none;
 }
 
 .video-card:hover {
@@ -139,6 +170,11 @@ body {
   aspect-ratio: 16 / 9;
   object-fit: cover;
   background: #1a1a1a;
+
+  /* Prevent dragging and selection */
+  -webkit-user-drag: none;
+  user-select: none;
+  pointer-events: none;
 }
 
 .video-info {

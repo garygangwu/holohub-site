@@ -7,7 +7,7 @@
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
   <title>Holo Hub - VR Video Feed</title>
-  <link rel="stylesheet" href="feed/feed.css?v=8">
+  <link rel="stylesheet" href="feed/feed.css?v=9">
 </head>
 <body>
   <!-- Header -->
@@ -40,5 +40,49 @@
   </div>
 
   <script src="feed/feed.js?v=6"></script>
+
+  <!-- Prevent native browser interactions -->
+  <script>
+    // Prevent context menu (right-click menu)
+    document.addEventListener('contextmenu', function(e) {
+      e.preventDefault();
+      return false;
+    }, { passive: false });
+
+    // Prevent long-press menu on visionOS/iOS
+    document.addEventListener('touchstart', function(e) {
+      if (e.touches.length > 1) {
+        e.preventDefault();
+      }
+    }, { passive: false });
+
+    document.addEventListener('touchend', function(e) {
+      // Prevent default touch behaviors that might trigger menus
+    }, { passive: false });
+
+    // Prevent drag and drop
+    document.addEventListener('dragstart', function(e) {
+      e.preventDefault();
+      return false;
+    });
+
+    // Prevent text selection on double-click
+    document.addEventListener('selectstart', function(e) {
+      e.preventDefault();
+      return false;
+    });
+
+    // Prevent copy
+    document.addEventListener('copy', function(e) {
+      e.preventDefault();
+      return false;
+    });
+
+    // Prevent cut
+    document.addEventListener('cut', function(e) {
+      e.preventDefault();
+      return false;
+    });
+  </script>
 </body>
 </html>
