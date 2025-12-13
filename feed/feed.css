@@ -51,6 +51,19 @@ body {
   padding-bottom: 6px;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE/Edge */
+
+  /* Sticky positioning */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding-top: 16px;
+  margin-left: -48px;
+  margin-right: -48px;
+  padding-left: 48px;
+  padding-right: 48px;
 }
 
 .categories::-webkit-scrollbar {
@@ -220,6 +233,13 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 18px;
   }
+
+  .categories {
+    margin-left: -40px;
+    margin-right: -40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -242,5 +262,12 @@ body {
 
   .title {
     font-size: 22px;
+  }
+
+  .categories {
+    margin-left: -32px;
+    margin-right: -32px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
