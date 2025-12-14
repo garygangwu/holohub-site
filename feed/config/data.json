@@ -3,97 +3,97 @@
         {
             "id": "all",
             "name": "All Videos",
-            "count": 220
-        },
-        {
-            "id": "nature",
-            "name": "Nature",
-            "count": 87
-        },
-        {
-            "id": "cultural",
-            "name": "Cultural",
-            "count": 63
-        },
-        {
-            "id": "gaming",
-            "name": "Gaming",
-            "count": 63
-        },
-        {
-            "id": "relaxation",
-            "name": "Relaxation",
-            "count": 62
-        },
-        {
-            "id": "adventure",
-            "name": "Adventure",
-            "count": 58
-        },
-        {
-            "id": "entertainment",
-            "name": "Entertainment",
-            "count": 54
-        },
-        {
-            "id": "travel",
-            "name": "Travel",
-            "count": 36
-        },
-        {
-            "id": "city",
-            "name": "City",
-            "count": 28
+            "count": 97
         },
         {
             "id": "3d demo",
             "name": "3d demo",
-            "count": 28
+            "count": 29
+        },
+        {
+            "id": "cultural",
+            "name": "Cultural",
+            "count": 24
+        },
+        {
+            "id": "nature",
+            "name": "Nature",
+            "count": 24
+        },
+        {
+            "id": "entertainment",
+            "name": "Entertainment",
+            "count": 23
+        },
+        {
+            "id": "travel",
+            "name": "Travel",
+            "count": 21
+        },
+        {
+            "id": "gaming",
+            "name": "Gaming",
+            "count": 21
+        },
+        {
+            "id": "adventure",
+            "name": "Adventure",
+            "count": 17
+        },
+        {
+            "id": "city",
+            "name": "City",
+            "count": 12
         },
         {
             "id": "horror",
             "name": "Horror",
-            "count": 28
-        },
-        {
-            "id": "sports",
-            "name": "Sports",
-            "count": 24
-        },
-        {
-            "id": "aerial",
-            "name": "Aerial",
-            "count": 20
+            "count": 11
         },
         {
             "id": "animal",
             "name": "Animal",
-            "count": 19
+            "count": 10
         },
         {
-            "id": "underwater",
-            "name": "Underwater",
-            "count": 18
+            "id": "sports",
+            "name": "Sports",
+            "count": 10
+        },
+        {
+            "id": "relaxation",
+            "name": "Relaxation",
+            "count": 8
+        },
+        {
+            "id": "aerial",
+            "name": "Aerial",
+            "count": 5
         },
         {
             "id": "music",
             "name": "Music",
-            "count": 11
-        },
-        {
-            "id": "fantasy",
-            "name": "Fantasy",
-            "count": 11
+            "count": 5
         },
         {
             "id": "theme park",
             "name": "Theme park",
-            "count": 6
+            "count": 4
+        },
+        {
+            "id": "fantasy",
+            "name": "Fantasy",
+            "count": 4
+        },
+        {
+            "id": "underwater",
+            "name": "Underwater",
+            "count": 2
         },
         {
             "id": "space",
             "name": "Space",
-            "count": 3
+            "count": 1
         }
     ],
     "videos": [
@@ -698,76 +698,6 @@
             "projectionType": "vr180"
         },
         {
-            "title": "The Hubble Space Telescope 360° Tour",
-            "id": "XZ_WeTGCU9o",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=XZ_WeTGCU9o",
-            "thumbnail": "https://img.youtube.com/vi/XZ_WeTGCU9o/hqdefault.jpg",
-            "category": "Aerial / Nature",
-            "stereoMode": "overUnder",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Bruegel: a fall with the Rebel Angels [Virtual Reality]",
-            "id": "bXR9EEmb-JU",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=bXR9EEmb-JU",
-            "thumbnail": "https://img.youtube.com/vi/bXR9EEmb-JU/hqdefault.jpg",
-            "category": "Travel / Cultural",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Osborne House 360",
-            "id": "j93AQ2HkYxM",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=j93AQ2HkYxM",
-            "thumbnail": "https://img.youtube.com/vi/j93AQ2HkYxM/hqdefault.jpg",
-            "category": "Travel / City / Cultural",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Bringing Rhomaleosaurus SEA DRAGONS back to LIFE with 360 VR",
-            "id": "BH1AvqYXwHQ",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=BH1AvqYXwHQ",
-            "thumbnail": "https://img.youtube.com/vi/BH1AvqYXwHQ/hqdefault.jpg",
-            "category": "Animal / Nature / Underwater",
-            "stereoMode": "overUnder",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Bringing Giraffatitan DINOSAURS back to LIFE with 360 VR 🦕",
-            "id": "p86gh2HEsp0",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=p86gh2HEsp0",
-            "thumbnail": "https://img.youtube.com/vi/p86gh2HEsp0/hqdefault.jpg",
-            "category": "Animal / Nature",
-            "stereoMode": "overUnder",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "EARTH's ecosystems in 360 VR",
-            "id": "ATBKji8WxmY",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=ATBKji8WxmY",
-            "thumbnail": "https://img.youtube.com/vi/ATBKji8WxmY/hqdefault.jpg",
-            "category": "Animal / Nature",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Swimming With Giants 360",
-            "id": "wOsq7fQ9Z3A",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=wOsq7fQ9Z3A",
-            "thumbnail": "https://img.youtube.com/vi/wOsq7fQ9Z3A/hqdefault.jpg",
-            "category": "Animal / Nature",
-            "stereoMode": "overUnder",
-            "projectionType": "vr360"
-        },
-        {
             "title": "The Known Universe in 360° #datavisualization",
             "id": "N79TowJOHHE",
             "platform": "YouTube",
@@ -798,271 +728,6 @@
             "projectionType": "vr360"
         },
         {
-            "title": "A Mumbai Summer | Meraki Studio",
-            "id": "Isxq9P8E504",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=Isxq9P8E504",
-            "thumbnail": "https://img.youtube.com/vi/Isxq9P8E504/hqdefault.jpg",
-            "category": "Travel / City / Cultural",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Jared Leto Tour Guides Alaska's Melting Glaciers in 360°: Ready For 100",
-            "platform": "YouTube",
-            "id": "eE0dX8GsIgE",
-            "url": "https://www.youtube.com/watch?v=eE0dX8GsIgE",
-            "thumbnail": "https://img.youtube.com/vi/eE0dX8GsIgE/hqdefault.jpg",
-            "category": "Travel / Nature / Aerial / Relaxation",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "The Fight to Save Threatened Species (360 Video)",
-            "platform": "YouTube",
-            "id": "T-aOVE22lEw",
-            "url": "https://www.youtube.com/watch?v=T-aOVE22lEw",
-            "thumbnail": "https://img.youtube.com/vi/T-aOVE22lEw/hqdefault.jpg",
-            "category": "Animal / Nature / Relaxation",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Mega Coaster: Get Ready for the Drop (360 Video)",
-            "id": "-xNN-bJQ4vI",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=-xNN-bJQ4vI",
-            "thumbnail": "https://img.youtube.com/vi/-xNN-bJQ4vI/hqdefault.jpg",
-            "category": "Adventure / Theme Park",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Fly a Helicopter on Mt. Everest In Incredible Virtual Reality! 🚁🏔️ (360 Video)",
-            "id": "n0lm4crJ8cc",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=n0lm4crJ8cc",
-            "thumbnail": "https://img.youtube.com/vi/n0lm4crJ8cc/hqdefault.jpg",
-            "category": "Travel / Nature / Aerial",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Canyon Swing: Jump Into the Unknown (360 Video)",
-            "platform": "YouTube",
-            "id": "tl6rVm9vx2g",
-            "url": "https://www.youtube.com/watch?v=tl6rVm9vx2g",
-            "thumbnail": "https://img.youtube.com/vi/tl6rVm9vx2g/hqdefault.jpg",
-            "category": "Travel / Nature / Relaxation",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Survive a Bear Attack in VR! ( 360 3D Video )",
-            "id": "g7btxyIbQQ0",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=g7btxyIbQQ0",
-            "thumbnail": "https://img.youtube.com/vi/g7btxyIbQQ0/hqdefault.jpg",
-            "category": "Travel / Nature",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "WAR KNOWS NO NATION: Virtual Reality World War II Video [VR Experience]",
-            "id": "CIbo0xLbNic",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=CIbo0xLbNic",
-            "thumbnail": "https://img.youtube.com/vi/CIbo0xLbNic/hqdefault.jpg",
-            "category": "Entertainment / Cultural",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Great Ocean Road, Victoria, Australia | 360 Video | Tourism Australia",
-            "id": "aszTdBlbfq0",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=aszTdBlbfq0",
-            "thumbnail": "https://img.youtube.com/vi/aszTdBlbfq0/hqdefault.jpg",
-            "category": "Travel / Nature / Aerial",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Instant Caribbean Vacation (360 Interactive Video) | Carnival Cruise Line",
-            "id": "CDfsFuDuHds",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=CDfsFuDuHds",
-            "thumbnail": "https://img.youtube.com/vi/CDfsFuDuHds/hqdefault.jpg",
-            "category": "Travel / City / Cultural",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "The Margins: Border Crossing | RYOT News",
-            "platform": "YouTube",
-            "id": "GJGfxfGEa9Y",
-            "url": "https://www.youtube.com/watch?v=GJGfxfGEa9Y",
-            "thumbnail": "https://i.ytimg.com/vi/GJGfxfGEa9Y/maxresdefault.jpg",
-            "duration": 138,
-            "category": "Entertainment / Cultural",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "360 Video of Blyde Canyon a Forever Resort",
-            "platform": "YouTube",
-            "id": "0eVwvpsKCZ0",
-            "url": "https://www.youtube.com/watch?v=0eVwvpsKCZ0",
-            "thumbnail": "https://i.ytimg.com/vi/0eVwvpsKCZ0/hqdefault.jpg",
-            "duration": 157,
-            "category": "Travel / Nature",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "360 VR VIDEO - the Most Beautiful Place in the World (360° degree video vr travel&nature)",
-            "platform": "YouTube",
-            "id": "HvD5eqaW_Tw",
-            "url": "https://www.youtube.com/watch?v=HvD5eqaW_Tw",
-            "thumbnail": "https://i.ytimg.com/vi/HvD5eqaW_Tw/maxresdefault.jpg",
-            "duration": 187,
-            "category": "Travel / City / Cultural",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Malaekahana Sunrise (360° Video, 4K)",
-            "platform": "YouTube",
-            "id": "-bIrUYM-GjU",
-            "url": "https://www.youtube.com/watch?v=-bIrUYM-GjU",
-            "thumbnail": "https://i.ytimg.com/vi/-bIrUYM-GjU/hqdefault.jpg",
-            "duration": 210,
-            "category": "Travel / Nature / Relaxation",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Pacific Sunset: Half Moon Bay (360 Video)",
-            "platform": "YouTube",
-            "id": "ka3qzz-oa-A",
-            "url": "https://www.youtube.com/watch?v=ka3qzz-oa-A",
-            "thumbnail": "https://i.ytimg.com/vi/ka3qzz-oa-A/maxresdefault.jpg",
-            "duration": 135,
-            "category": "Travel / Nature / Relaxation",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Redwoods: Walk Among Giants (360 Video)",
-            "platform": "YouTube",
-            "id": "DTlzIGFrL_4",
-            "url": "https://www.youtube.com/watch?v=DTlzIGFrL_4",
-            "thumbnail": "https://i.ytimg.com/vi/DTlzIGFrL_4/maxresdefault.jpg",
-            "duration": 121,
-            "category": "Nature / Relaxation",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Sunset of Oia-Santorini 360 video",
-            "platform": "YouTube",
-            "id": "O75QWydmaQw",
-            "url": "https://www.youtube.com/watch?v=O75QWydmaQw",
-            "thumbnail": "https://i.ytimg.com/vi/O75QWydmaQw/maxresdefault.jpg",
-            "duration": 90,
-            "category": "Travel / City / Nature",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Virtual Nature 360° - Mountain Stillness | VR Relaxation for Oculus Go & Quest",
-            "platform": "YouTube",
-            "id": "aePXpV8Z10Y",
-            "url": "https://www.youtube.com/watch?v=aePXpV8Z10Y",
-            "thumbnail": "https://i.ytimg.com/vi/aePXpV8Z10Y/maxresdefault.jpg",
-            "duration": 288,
-            "category": "Nature / Relaxation",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "360 Degree Video of Zip-lining in Chattanooga, TN (4k Video)",
-            "platform": "YouTube",
-            "id": "IoRXkhykjkg",
-            "url": "https://www.youtube.com/watch?v=IoRXkhykjkg",
-            "thumbnail": "https://i.ytimg.com/vi/IoRXkhykjkg/maxresdefault.jpg",
-            "duration": 128,
-            "category": "Adventure / Theme Park",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "360° cockpit view | Fighter Jet | Patrouille Suisse | Virtual Reality",
-            "platform": "YouTube",
-            "id": "NdZ02-Qenso",
-            "url": "https://www.youtube.com/watch?v=NdZ02-Qenso",
-            "thumbnail": "https://i.ytimg.com/vi/NdZ02-Qenso/maxresdefault.jpg",
-            "duration": 264,
-            "category": "Adventure / Aerial",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "360° Cute Kittens Battle in  Video",
-            "platform": "YouTube",
-            "id": "d4PNokZaRMA",
-            "url": "https://www.youtube.com/watch?v=d4PNokZaRMA",
-            "thumbnail": "https://i.ytimg.com/vi/d4PNokZaRMA/maxresdefault.jpg",
-            "duration": 66,
-            "category": "Animal / Relaxation",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Explore the world in 4k 360",
-            "id": "1_ifgJqLqTY",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=1_ifgJqLqTY",
-            "thumbnail": "https://i.ytimg.com/vi/1_ifgJqLqTY/maxresdefault.jpg",
-            "duration": 198,
-            "category": "Travel / Aerial",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Speed Flying 360 Video Crystal Mountain",
-            "id": "g6w6xkQeSHg",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=g6w6xkQeSHg",
-            "thumbnail": "https://i.ytimg.com/vi/g6w6xkQeSHg/maxresdefault.jpg",
-            "duration": 155,
-            "category": "Entertainment / Nature",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Tomorrowland 2014 | 360 Degrees of Madness",
-            "id": "j81DDY4nvos",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=j81DDY4nvos",
-            "thumbnail": "https://i.ytimg.com/vi/j81DDY4nvos/maxresdefault.jpg",
-            "duration": 266,
-            "category": "Entertainment / Music",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Trailer: As It Is - A Grand Canyon VR Documentary in 360 Video",
-            "id": "2x3G7_7XYR4",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=2x3G7_7XYR4",
-            "thumbnail": "https://i.ytimg.com/vi/2x3G7_7XYR4/maxresdefault.jpg",
-            "duration": 155,
-            "category": "Travel / Nature",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
             "title": "Seeking Pluto’s Frigid Heart | 360 VR Video | The New York Times",
             "id": "jIxQXGTl_mo",
             "platform": "YouTube",
@@ -1070,72 +735,7 @@
             "thumbnail": "https://i.ytimg.com/vi/jIxQXGTl_mo/maxresdefault.jpg",
             "duration": 464,
             "category": "Entertainment",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Surrounded by Wild Elephants in 4k 360",
-            "id": "mlOiXMvMaZo",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=mlOiXMvMaZo",
-            "thumbnail": "https://i.ytimg.com/vi/mlOiXMvMaZo/maxresdefault.jpg",
-            "duration": 157,
-            "category": "Animal / Nature",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "KIDNAPPED!  Get taken in 360° Video (Comedy)",
-            "id": "ywoe0obYaLU",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=ywoe0obYaLU",
-            "thumbnail": "https://i.ytimg.com/vi/ywoe0obYaLU/maxresdefault.jpg",
-            "duration": 407,
-            "category": "Entertainment / Horror",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "360° Great Hammerhead Shark Encounter | National Geographic",
-            "id": "rG4jSz_2HDY",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=rG4jSz_2HDY",
-            "thumbnail": "https://i.ytimg.com/vi/rG4jSz_2HDY/maxresdefault.jpg",
-            "duration": 135,
-            "category": "Animal / Nature / Underwater",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Jailbreak 360 | I (Almost) Got Away With It (360 Video)",
-            "id": "vNLDRSdAj1U",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=vNLDRSdAj1U",
-            "thumbnail": "https://i.ytimg.com/vi/vNLDRSdAj1U/maxresdefault.jpg",
-            "duration": 340,
-            "category": "Entertainment / Horror",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Tahiti Surf",
-            "id": "MKWWhf8RAV8",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=MKWWhf8RAV8",
-            "thumbnail": "https://i.ytimg.com/vi/MKWWhf8RAV8/maxresdefault.jpg",
-            "duration": 206,
-            "category": "Adventure",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Protecting Pandas (360 Video)",
-            "id": "lDwYdPmZMEE",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=lDwYdPmZMEE",
-            "thumbnail": "https://img.youtube.com/vi/lDwYdPmZMEE/hqdefault.jpg",
-            "category": "Animal / Nature",
-            "stereoMode": "monoscopic",
+            "stereoMode": "overUnder",
             "projectionType": "vr360"
         },
         {
@@ -1145,36 +745,6 @@
             "url": "https://www.youtube.com/watch?v=VLNjGS20f50",
             "thumbnail": "https://img.youtube.com/vi/VLNjGS20f50/hqdefault.jpg",
             "category": "Entertainment / Cultural",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Iceland in 360° VR video",
-            "id": "H9Yp3h9JHGM",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=H9Yp3h9JHGM",
-            "thumbnail": "https://img.youtube.com/vi/H9Yp3h9JHGM/hqdefault.jpg",
-            "category": "Travel / Nature / Aerial",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Boiling Point | Fear Thy Neighbor (360 Video)",
-            "id": "drMRynPU4Kg",
-            "platform": "YouTube",
-            "url": "http://youtube.com/watch?v=drMRynPU4Kg",
-            "thumbnail": "https://img.youtube.com/vi/drMRynPU4Kg/hqdefault.jpg",
-            "category": "Entertainment / Horror",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "title": "Mountain of Madness | Fear Thy Neighbor (360 Video)",
-            "id": "-90v3d6tVLw",
-            "platform": "YouTube",
-            "url": "https://www.youtube.com/watch?v=-90v3d6tVLw",
-            "thumbnail": "https://img.youtube.com/vi/-90v3d6tVLw/hqdefault.jpg",
-            "category": "Entertainment / Horror",
             "stereoMode": "monoscopic",
             "projectionType": "vr360"
         },
@@ -1309,16 +879,6 @@
             "projectionType": "vr360"
         },
         {
-            "id": "yPhR37ob94M",
-            "title": "360° Deep Sea Horror Video Experience | Shark Cage Drop | Creatures of the Abyss | Thalassophobia",
-            "url": "https://www.youtube.com/watch?v=yPhR37ob94M",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/yPhR37ob94M/hqdefault.jpg",
-            "category": "Horror / Underwater",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
             "id": "qq1dTbrG264",
             "title": "360° Dinosaur Roller Coaster Ride 2 – Epic VR Jurassic World Adventure",
             "url": "https://www.youtube.com/watch?v=qq1dTbrG264",
@@ -1349,60 +909,12 @@
             "projectionType": "vr360"
         },
         {
-            "id": "0mxBdqjOdZ0",
-            "title": "You're in Jurassic World 360° VR",
-            "url": "https://www.youtube.com/watch?v=0mxBdqjOdZ0",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/0mxBdqjOdZ0/hqdefault.jpg",
-            "category": "Nature / Entertainment",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "id": "7Gmu3P-Pi0E",
-            "title": "VR 360° GIANT HAMOOD HABIBI in the City",
-            "url": "https://www.youtube.com/watch?v=7Gmu3P-Pi0E",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/7Gmu3P-Pi0E/hqdefault.jpg",
-            "category": "Adventure / Gaming",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "id": "ejGcvyljyY0",
-            "title": "Labubu 360º ANIMATION! ",
-            "url": "https://www.youtube.com/watch?v=ejGcvyljyY0",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/ejGcvyljyY0/hqdefault.jpg",
-            "category": "Adventure / Gaming",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
-            "id": "eVT0IbGabtA",
-            "title": "LABUBU 360° - Hunts You - VR (Pop Mart The Monsters)",
-            "url": "https://www.youtube.com/watch?v=eVT0IbGabtA",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/eVT0IbGabtA/hqdefault.jpg",
-            "category": "Entertainment / Gaming",
-            "stereoMode": "monoscopic",
-            "projectionType": "vr360"
-        },
-        {
             "id": "bdTVn1LN5kM",
             "title": "LABUBU 360° - Breaks Into YOUR House! (HIDDEN CAMERA)",
             "url": "https://www.youtube.com/watch?v=bdTVn1LN5kM",
             "platform": "YouTube",
             "thumbnail": "https://img.youtube.com/vi/bdTVn1LN5kM/hqdefault.jpg",
             "category": "Entertainment / Gaming"
-        },
-        {
-            "id": "W8jtUlyXjg0",
-            "title": "What REALLY Happened When Jinu & Abby Got Caught Watching Rumi? 360° K- Pop |VR 8K|",
-            "url": "https://www.youtube.com/watch?v=W8jtUlyXjg0",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/W8jtUlyXjg0/hqdefault.jpg",
-            "category": "Adventure / Entertainment"
         },
         {
             "id": "38bgz7Bx_iI",
@@ -1429,27 +941,11 @@
             "category": "Adventure / Entertainment / Nature"
         },
         {
-            "id": "uQQOxbltJqU",
-            "title": "VR 360 Tsunami and shark attack survival Virtual Reality Video interactive videos",
-            "url": "https://www.youtube.com/watch?v=uQQOxbltJqU",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/uQQOxbltJqU/hqdefault.jpg",
-            "category": "Adventure / Music / Nature"
-        },
-        {
             "id": "aCUw9NVmdsQ",
             "title": "VR 360 Tsunami and flood hits train station Virtual Reality Video interactive videos",
             "url": "https://www.youtube.com/watch?v=aCUw9NVmdsQ",
             "platform": "YouTube",
             "thumbnail": "https://img.youtube.com/vi/aCUw9NVmdsQ/hqdefault.jpg",
-            "category": "Adventure / Music / Nature"
-        },
-        {
-            "id": "Q1rPJaDFEZ8",
-            "title": "VR 360 Tornado hits the city and cruise ship sinking after tsunami Virtual Reality",
-            "url": "https://www.youtube.com/watch?v=Q1rPJaDFEZ8",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/Q1rPJaDFEZ8/hqdefault.jpg",
             "category": "Adventure / Music / Nature"
         },
         {
@@ -1469,52 +965,12 @@
             "category": "Relaxation / Adventure"
         },
         {
-            "id": "ah-MkvJCiog",
-            "title": "Warhammer Age of Sigmar: Tempestfall VR 360° — Enter the Storm of Magic and War!",
-            "url": "https://www.youtube.com/watch?v=ah-MkvJCiog",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/ah-MkvJCiog/hqdefault.jpg",
-            "category": "Gaming / Entertainment"
-        },
-        {
-            "id": "IJq3oMr80pg",
-            "title": "7 Days Blood Moons 360°",
-            "url": "https://www.youtube.com/watch?v=IJq3oMr80pg",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/IJq3oMr80pg/hqdefault.jpg",
-            "category": "Adventure / Entertainment / Gaming"
-        },
-        {
-            "id": "-K7ky3jIFtw",
-            "title": "Expedition to the Moon and Space 360°",
-            "url": "https://www.youtube.com/watch?v=-K7ky3jIFtw",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/-K7ky3jIFtw/hqdefault.jpg",
-            "category": "Adventure / Space / Nature"
-        },
-        {
             "id": "ZJ-eh2pmqD4",
             "title": "Tiny Love VR 360°",
             "url": "https://www.youtube.com/watch?v=ZJ-eh2pmqD4",
             "platform": "YouTube",
             "thumbnail": "https://img.youtube.com/vi/ZJ-eh2pmqD4/hqdefault.jpg",
             "category": "Gaming / Entertainment"
-        },
-        {
-            "id": "JMvTAXnhp0o",
-            "title": "Fight with the Strider (Half-Life 2, 360° VR) | Garry's Mod | Gameplay, No Commentary, 8K",
-            "url": "https://www.youtube.com/watch?v=JMvTAXnhp0o",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/JMvTAXnhp0o/hqdefault.jpg",
-            "category": "Gaming / Entertainment"
-        },
-        {
-            "id": "ld61ohZJNKY",
-            "title": "Crystal Beach Cyclone, NoLimits 2 Roller Coaster Simulation, 360° VR",
-            "url": "https://www.youtube.com/watch?v=ld61ohZJNKY",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/ld61ohZJNKY/hqdefault.jpg",
-            "category": "Sports"
         },
         {
             "id": "iypWXByzMU4",
@@ -1549,164 +1005,12 @@
             "category": "Gaming / Horror"
         },
         {
-            "id": "hfz8xinWYd4",
-            "title": "KPop Demon Hunters Movie Collection! 360° | VR 4K",
-            "url": "https://www.youtube.com/watch?v=hfz8xinWYd4",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/hfz8xinWYd4/hqdefault.jpg",
-            "category": "Horror / Adventure / Music"
-        },
-        {
-            "id": "HC7IXNrriME",
-            "title": "99 Nights in the Forest Movie Collection! 360° | VR 4K",
-            "url": "https://www.youtube.com/watch?v=HC7IXNrriME",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/HC7IXNrriME/hqdefault.jpg",
-            "category": "Gaming / Relaxation"
-        },
-        {
-            "id": "g3D1rISqFlg",
-            "title": "Labubu 360° Movie Collection! | VR 4K",
-            "url": "https://www.youtube.com/watch?v=g3D1rISqFlg",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/g3D1rISqFlg/hqdefault.jpg",
-            "category": "Adventure / Entertainment"
-        },
-        {
-            "id": "wCiaEmZBhT4",
-            "title": "Brr Brr Patapim 360° Movie Collection! | VR 4K",
-            "url": "https://www.youtube.com/watch?v=wCiaEmZBhT4",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/wCiaEmZBhT4/hqdefault.jpg",
-            "category": "Adventure / Entertainment"
-        },
-        {
-            "id": "VvtfCa4YZRM",
-            "title": "Squid Game 360° Red Light, Green Light - VR 4K",
-            "url": "https://www.youtube.com/watch?v=VvtfCa4YZRM",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/VvtfCa4YZRM/hqdefault.jpg",
-            "category": "Gaming / Adventure"
-        },
-        {
-            "id": "nTfGCyCGMbs",
-            "title": "Squid Game 360° Hide and Seek - Movie Collection! | Season 3 VR",
-            "url": "https://www.youtube.com/watch?v=nTfGCyCGMbs",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/nTfGCyCGMbs/hqdefault.jpg",
-            "category": "Gaming / Entertainment"
-        },
-        {
-            "id": "chhTo1HpETM",
-            "title": "VR 360° Fast Fredbrear HUNTS YOU in Hello Neighbor",
-            "url": "https://www.youtube.com/watch?v=chhTo1HpETM",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/chhTo1HpETM/hqdefault.jpg",
-            "category": "Adventure / Entertainment / Gaming"
-        },
-        {
-            "id": "ZtgGdH_Py_8",
-            "title": "VR 360° Ghostface Killer HUNTS YOU!",
-            "url": "https://www.youtube.com/watch?v=ZtgGdH_Py_8",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/ZtgGdH_Py_8/hqdefault.jpg",
-            "category": "Horror / Adventure"
-        },
-        {
-            "id": "MQDXYvcToKc",
-            "title": "VR 360° Wednesday Addams Movie Compilation!",
-            "url": "https://www.youtube.com/watch?v=MQDXYvcToKc",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/MQDXYvcToKc/hqdefault.jpg",
-            "category": "Entertainment"
-        },
-        {
-            "id": "mthR02vbCKw",
-            "title": "VR 360° Karkerkar Kurkur HUNTS YOU!",
-            "url": "https://www.youtube.com/watch?v=mthR02vbCKw",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/mthR02vbCKw/hqdefault.jpg",
-            "category": "Adventure / Entertainment"
-        },
-        {
-            "id": "FzHhCC_UvdM",
-            "title": "VR 360° Squid Game Doll HUNTS YOU!",
-            "url": "https://www.youtube.com/watch?v=FzHhCC_UvdM",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/FzHhCC_UvdM/hqdefault.jpg",
-            "category": "Gaming / Adventure / Entertainment / Sports"
-        },
-        {
-            "id": "2PlGTdNZ7GM",
-            "title": "VR 360° Chimpanzini Bananini HUNTS YOU!",
-            "url": "https://www.youtube.com/watch?v=2PlGTdNZ7GM",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/2PlGTdNZ7GM/hqdefault.jpg",
-            "category": "Adventure / Entertainment / Gaming"
-        },
-        {
-            "id": "Ri4XyMXEt5k",
-            "title": "Squid Game Creepy Doll 360° - CINEMA HALL | VR/360° Experience",
-            "url": "https://www.youtube.com/watch?v=Ri4XyMXEt5k",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/Ri4XyMXEt5k/hqdefault.jpg",
-            "category": "Gaming / Horror"
-        },
-        {
-            "id": "xlguZ71Old8",
-            "title": "🔴VR 360 Avengers Lego Roller Coaster Video",
-            "url": "https://www.youtube.com/watch?v=xlguZ71Old8",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/xlguZ71Old8/hqdefault.jpg",
-            "category": "Adventure / Sports / Gaming / Relaxation"
-        },
-        {
             "id": "0P3tPoCUw4M",
             "title": "🔴 AI Roller Coaster | VR 360° Video",
             "url": "https://www.youtube.com/watch?v=0P3tPoCUw4M",
             "platform": "YouTube",
             "thumbnail": "https://img.youtube.com/vi/0P3tPoCUw4M/hqdefault.jpg",
             "category": "Sports / Gaming / Relaxation / Adventure"
-        },
-        {
-            "id": "vSK8eSMcCTg",
-            "title": "AI CATNAP and the SMILING CRITTERS  VR360° AI Experience",
-            "url": "https://www.youtube.com/watch?v=vSK8eSMcCTg",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/vSK8eSMcCTg/hqdefault.jpg",
-            "category": "Entertainment / Music"
-        },
-        {
-            "id": "csoqmdu4ffs",
-            "title": "CATNAP and the dancing SMILING CRITTERS  VR360° Experience",
-            "url": "https://www.youtube.com/watch?v=csoqmdu4ffs",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/csoqmdu4ffs/hqdefault.jpg",
-            "category": "Entertainment / Music"
-        },
-        {
-            "id": "jtdV_1Qg_0M",
-            "title": "🔴VR 360° Maxwell the cat on a roller coaster",
-            "url": "https://www.youtube.com/watch?v=jtdV_1Qg_0M",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/jtdV_1Qg_0M/hqdefault.jpg",
-            "category": "Entertainment / Gaming"
-        },
-        {
-            "id": "nMxceha8cn4",
-            "title": "VR 360 Skibidi Bop Bop Yes Yes Yes  Roller Coaster Experience",
-            "url": "https://www.youtube.com/watch?v=nMxceha8cn4",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/nMxceha8cn4/hqdefault.jpg",
-            "category": "Sports / Entertainment"
-        },
-        {
-            "id": "xEoGrUf1Q-o",
-            "title": "🔴VR 360° The Simpsons Moe's Tavern Roller coaster video",
-            "url": "https://www.youtube.com/watch?v=xEoGrUf1Q-o",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/xEoGrUf1Q-o/hqdefault.jpg",
-            "category": "Sports / Entertainment"
         },
         {
             "id": "7c_yVW27qeQ",
@@ -1717,180 +1021,12 @@
             "category": "Adventure / Sports"
         },
         {
-            "id": "jfPymvIumNo",
-            "title": "Find Pipi Fmaily 360° VR",
-            "url": "https://www.youtube.com/watch?v=jfPymvIumNo",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/jfPymvIumNo/hqdefault.jpg",
-            "category": "Entertainment"
-        },
-        {
-            "id": "C-JYmqk6oSA",
-            "title": "Find Sahur Fmaily in 360° VR",
-            "url": "https://www.youtube.com/watch?v=C-JYmqk6oSA",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/C-JYmqk6oSA/hqdefault.jpg",
-            "category": "Entertainment / Gaming"
-        },
-        {
-            "id": "Fxmsl5888pM",
-            "title": "Find Sahur Fmaily in 360° VR",
-            "url": "https://www.youtube.com/watch?v=Fxmsl5888pM",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/Fxmsl5888pM/hqdefault.jpg",
-            "category": "Entertainment / Gaming"
-        },
-        {
             "id": "fSaK-VK7sfQ",
             "title": "99 Nights in the Forest Roblox Find in 360° VR",
             "url": "https://www.youtube.com/watch?v=fSaK-VK7sfQ",
             "platform": "YouTube",
             "thumbnail": "https://img.youtube.com/vi/fSaK-VK7sfQ/hqdefault.jpg",
             "category": "Gaming / Relaxation / Entertainment"
-        },
-        {
-            "id": "1oM7tzpjL4U",
-            "title": "FNAF 2 Movie VR 360 - Insane Jumpscare Rollercoaster Ride",
-            "url": "https://www.youtube.com/watch?v=1oM7tzpjL4U",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/1oM7tzpjL4U/hqdefault.jpg",
-            "category": "Gaming / Sports / Adventure"
-        },
-        {
-            "id": "NqEQZsMeFUA",
-            "title": "Garten of Banban 8: The 360° Horror Experience You Can't Escape",
-            "url": "https://www.youtube.com/watch?v=NqEQZsMeFUA",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/NqEQZsMeFUA/hqdefault.jpg",
-            "category": "Gaming / Horror / Adventure"
-        },
-        {
-            "id": "b7f33t16ws0",
-            "title": "Terrifying 360 Spider Experience – Do You Dare Face Your Fears?",
-            "url": "https://www.youtube.com/watch?v=b7f33t16ws0",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/b7f33t16ws0/hqdefault.jpg",
-            "category": "Adventure / Gaming"
-        },
-        {
-            "id": "gjp-SZqmiNc",
-            "title": "BOXING VR Knockout! Creed 360° VR Boxing | Best VR Fighting Games Experience",
-            "url": "https://www.youtube.com/watch?v=gjp-SZqmiNc",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/gjp-SZqmiNc/hqdefault.jpg",
-            "category": "Gaming / Sports"
-        },
-        {
-            "id": "o7bITXjR2l8",
-            "title": "DON’T FALL! The Floor Is Lava Game Meets Volcano Eruption (360° POV Adventure)",
-            "url": "https://www.youtube.com/watch?v=o7bITXjR2l8",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/o7bITXjR2l8/hqdefault.jpg",
-            "category": "Adventure / Gaming / Sports"
-        },
-        {
-            "id": "OjFeK5orlck",
-            "title": "Chucky Doll vs Tung Tung Tung Sahur 360° Horror Roller Coaster | Best 360 Horror Video VR",
-            "url": "https://www.youtube.com/watch?v=OjFeK5orlck",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/OjFeK5orlck/hqdefault.jpg",
-            "category": "Horror / Gaming / Sports"
-        },
-        {
-            "id": "8n4vx425dUg",
-            "title": "Happy Halloween VR 🎃 Scary Haunted Horror Roller Coaster VR 360 | Best 360 Horror Video",
-            "url": "https://www.youtube.com/watch?v=8n4vx425dUg",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/8n4vx425dUg/hqdefault.jpg",
-            "category": "Horror / Gaming / Sports"
-        },
-        {
-            "id": "m-UiId66IBc",
-            "title": "Hogwarts Legacy Intro 360° VR Video",
-            "url": "https://www.youtube.com/watch?v=m-UiId66IBc",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/m-UiId66IBc/hqdefault.jpg",
-            "category": "Adventure / Nature / Fantasy"
-        },
-        {
-            "id": "sl3rB6KGybQ",
-            "title": "Underwater Exploration 360° VR Video",
-            "url": "https://www.youtube.com/watch?v=sl3rB6KGybQ",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/sl3rB6KGybQ/hqdefault.jpg",
-            "category": "Adventure / Gaming / Underwater"
-        },
-        {
-            "id": "X5O6VElF_Rg",
-            "title": "BATMAN Bike Ride 360° VR Video",
-            "url": "https://www.youtube.com/watch?v=X5O6VElF_Rg",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/X5O6VElF_Rg/hqdefault.jpg",
-            "category": "Gaming / Sports"
-        },
-        {
-            "id": "k_DxhpwF_58",
-            "title": "TIMELAPSE OF THE FUTURE 360° VR Video",
-            "url": "https://www.youtube.com/watch?v=k_DxhpwF_58",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/k_DxhpwF_58/hqdefault.jpg",
-            "category": "Gaming / Relaxation"
-        },
-        {
-            "id": "1z8Mm5qQews",
-            "title": "Wizard Roller Coaster 360° VR Video",
-            "url": "https://www.youtube.com/watch?v=1z8Mm5qQews",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/1z8Mm5qQews/hqdefault.jpg",
-            "category": "Gaming / Sports"
-        },
-        {
-            "id": "---XOgpQFjQ",
-            "title": "God of War 360° VR Video",
-            "url": "https://www.youtube.com/watch?v=---XOgpQFjQ",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/---XOgpQFjQ/hqdefault.jpg",
-            "category": "Nature / Relaxation / Fantasy"
-        },
-        {
-            "id": "VeO0w6ngyQQ",
-            "title": "Space Tour 360° VR Video",
-            "url": "https://www.youtube.com/watch?v=VeO0w6ngyQQ",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/VeO0w6ngyQQ/hqdefault.jpg",
-            "category": "Space / Relaxation"
-        },
-        {
-            "id": "Mk62YZcXXe8",
-            "title": "VR 360° Italian Brainrot - Stitch - Random Movie Compilation!",
-            "url": "https://www.youtube.com/watch?v=Mk62YZcXXe8",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/Mk62YZcXXe8/hqdefault.jpg",
-            "category": "Relaxation / Adventure / Horror / Gaming"
-        },
-        {
-            "id": "iuLD4j5LDLE",
-            "title": "360° VR HIDDEN CAMERA! KPop Demon Hunters In House",
-            "url": "https://www.youtube.com/watch?v=iuLD4j5LDLE",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/iuLD4j5LDLE/hqdefault.jpg",
-            "category": "Relaxation / Horror / Gaming / Adventure"
-        },
-        {
-            "id": "GR7fgtWIflw",
-            "title": "360° THE BOY NEXT DOOR: My Student Is The Hottest Guy In College, And He Likes Me in VR",
-            "url": "https://www.youtube.com/watch?v=GR7fgtWIflw",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/GR7fgtWIflw/hqdefault.jpg",
-            "category": "Adventure / Gaming / Fantasy"
-        },
-        {
-            "id": "zsk_GKN5vhc",
-            "title": "360° Escaping Bad Doc in ROBLOX | Story in VR",
-            "url": "https://www.youtube.com/watch?v=zsk_GKN5vhc",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/zsk_GKN5vhc/hqdefault.jpg",
-            "category": "Adventure / Gaming / Fantasy"
         },
         {
             "id": "N-s-j2h0l2A",
@@ -1917,14 +1053,6 @@
             "category": "Gaming / Fantasy / Adventure / Sports"
         },
         {
-            "id": "qh6PyuhJ1-Q",
-            "title": "360° I'm Stuck with a BAD Millionaire Guy 😱 | Roblox Story in VR",
-            "url": "https://www.youtube.com/watch?v=qh6PyuhJ1-Q",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/qh6PyuhJ1-Q/hqdefault.jpg",
-            "category": "Gaming / Adventure / Fantasy / Sports"
-        },
-        {
             "title": "360° Roblox: A Thief Stole My Police Car! Rookie's First Day | VR Experience",
             "id": "S4Xa-vhq-6Q",
             "platform": "YouTube",
@@ -1935,374 +1063,6 @@
             "projectionType": "vr360"
         },
         {
-            "id": "OhsckUqgOC4",
-            "title": "360° ESCAPE a ROBLOX Mafia | VR Experience",
-            "url": "https://www.youtube.com/watch?v=OhsckUqgOC4",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/OhsckUqgOC4/hqdefault.jpg",
-            "category": "Gaming / Adventure / Fantasy"
-        },
-        {
-            "id": "EaunDGosJ-Y",
-            "title": "Top 5 Submarine 360 Videos of Whales, Bloop, El Gran Maja and Sea Eater Sea Monsters in 4K",
-            "url": "https://www.youtube.com/watch?v=EaunDGosJ-Y",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/EaunDGosJ-Y/hqdefault.jpg",
-            "category": "Underwater / Adventure / Gaming"
-        },
-        {
-            "id": "w6e6vxrr_t0",
-            "title": "Best 5 360 Bloop Videos with Whale, El Gran Maja, Sea Eater & Leviathan Sea Monster | 360 video 4K",
-            "url": "https://www.youtube.com/watch?v=w6e6vxrr_t0",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/w6e6vxrr_t0/hqdefault.jpg",
-            "category": "Underwater / Adventure / Gaming"
-        },
-        {
-            "id": "0JLSAlplw2k",
-            "title": "360 Whale War With Bloop, El Gran Maja, Leviathan and Sea Eater Sea Monster | 360 video 4K",
-            "url": "https://www.youtube.com/watch?v=0JLSAlplw2k",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/0JLSAlplw2k/hqdefault.jpg",
-            "category": "Adventure / Underwater / Horror / Gaming"
-        },
-        {
-            "id": "ahwhW3l14Vc",
-            "title": "360 Bloop, Whale, El Gran Maja, Ningen and Livaithan Sea Monsters in Roller Coaster | 360 video 4K",
-            "url": "https://www.youtube.com/watch?v=ahwhW3l14Vc",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/ahwhW3l14Vc/hqdefault.jpg",
-            "category": "Underwater / Adventure / Gaming"
-        },
-        {
-            "id": "mkRO39KG4VY",
-            "title": "360 Sea Eater Eat Whale, Ningen and Livaithan Sea Monsters in Roller Coaster | 360 video 4K",
-            "url": "https://www.youtube.com/watch?v=mkRO39KG4VY",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/mkRO39KG4VY/hqdefault.jpg",
-            "category": "Underwater / Adventure / Gaming"
-        },
-        {
-            "id": "2tObA4kb16k",
-            "title": "360° VR - Red Light Green Light Game Returns | Squid Game: Season 2",
-            "url": "https://www.youtube.com/watch?v=2tObA4kb16k",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/2tObA4kb16k/hqdefault.jpg",
-            "category": "Gaming / Adventure / Horror"
-        },
-        {
-            "id": "9MHJlwLWXt4",
-            "title": "360° - FEAR OF HEIGHTS | VR",
-            "url": "https://www.youtube.com/watch?v=9MHJlwLWXt4",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/9MHJlwLWXt4/hqdefault.jpg",
-            "category": "Adventure / Entertainment / Sports"
-        },
-        {
-            "id": "GvP64hrHa1E",
-            "title": "360° - Eren Death | Attack on Titan Finale",
-            "url": "https://www.youtube.com/watch?v=GvP64hrHa1E",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/GvP64hrHa1E/hqdefault.jpg",
-            "category": "Adventure / Gaming / Horror"
-        },
-        {
-            "id": "dh9ba4D_oKw",
-            "title": "360° VR - $20 BILLION DOLLAR Mall | Dubai Mall",
-            "url": "https://www.youtube.com/watch?v=dh9ba4D_oKw",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/dh9ba4D_oKw/hqdefault.jpg",
-            "category": "Entertainment / Cultural / City"
-        },
-        {
-            "id": "5Un8H9CgmFY",
-            "title": "360° VR - SCARIEST Sea Monsters",
-            "url": "https://www.youtube.com/watch?v=5Un8H9CgmFY",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/5Un8H9CgmFY/hqdefault.jpg",
-            "category": "Nature / Underwater / Horror"
-        },
-        {
-            "id": "SDfNq1H6d5I",
-            "title": "Autumn City. 10K VR Meditation",
-            "url": "https://www.youtube.com/watch?v=SDfNq1H6d5I",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/SDfNq1H6d5I/hqdefault.jpg",
-            "category": "Relaxation / Nature / Cultural"
-        },
-        {
-            "id": "ukHusylwZNc",
-            "title": "360 Virtual Tour №5. Neuschwanstein Castle",
-            "url": "https://www.youtube.com/watch?v=ukHusylwZNc",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/ukHusylwZNc/hqdefault.jpg",
-            "category": "Fantasy / Relaxation / Nature / Cultural"
-        },
-        {
-            "id": "zD8_U1JNU3c",
-            "title": "Abandoned Kuril  Islands. 16K 360° video",
-            "url": "https://www.youtube.com/watch?v=zD8_U1JNU3c",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/zD8_U1JNU3c/hqdefault.jpg",
-            "category": "Nature / Relaxation / Cultural"
-        },
-        {
-            "id": "tguJ1zsEDsE",
-            "title": "360 Virtual Tour №4. Antarctica",
-            "url": "https://www.youtube.com/watch?v=tguJ1zsEDsE",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/tguJ1zsEDsE/hqdefault.jpg",
-            "category": "Nature / Relaxation / Underwater"
-        },
-        {
-            "id": "kTZAwftwslM",
-            "title": "Sunny Beach. VR Relaxation in 16K",
-            "url": "https://www.youtube.com/watch?v=kTZAwftwslM",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/kTZAwftwslM/hqdefault.jpg",
-            "category": "Nature / Relaxation / Cultural"
-        },
-        {
-            "id": "02Y9eJDM_Ww",
-            "title": "The Moscow Museum-Diorama “Tsar-Layout”. 6K 360° video",
-            "url": "https://www.youtube.com/watch?v=02Y9eJDM_Ww",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/02Y9eJDM_Ww/hqdefault.jpg",
-            "category": "Cultural / Nature / Relaxation"
-        },
-        {
-            "id": "AmKfevqUPqs",
-            "title": "360 Virtual Tour №3. Football Stadiums of the World",
-            "url": "https://www.youtube.com/watch?v=AmKfevqUPqs",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/AmKfevqUPqs/hqdefault.jpg",
-            "category": "Relaxation / Nature / City / Cultural"
-        },
-        {
-            "id": "IfnO4tEdkpo",
-            "title": "Guangzhou City, China. 16K 360° video",
-            "url": "https://www.youtube.com/watch?v=IfnO4tEdkpo",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/IfnO4tEdkpo/hqdefault.jpg",
-            "category": "City / Relaxation / Cultural"
-        },
-        {
-            "id": "Qxg_MOSIWB4",
-            "title": "Poppy Fields. VR Relaxation in 16K",
-            "url": "https://www.youtube.com/watch?v=Qxg_MOSIWB4",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/Qxg_MOSIWB4/hqdefault.jpg",
-            "category": "Nature / Relaxation / Cultural"
-        },
-        {
-            "id": "V82i0XtpMLU",
-            "title": "360 Virtual Tour №2. Bromo Volcano, Java Island, Indonesia",
-            "url": "https://www.youtube.com/watch?v=V82i0XtpMLU",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/V82i0XtpMLU/hqdefault.jpg",
-            "category": "Nature / Relaxation"
-        },
-        {
-            "id": "QjX9Gfdj7C8",
-            "title": "360 Virtual Tour №1. Plosky Tolbachik Volcano Eruption, Kamchatka, Russia",
-            "url": "https://www.youtube.com/watch?v=QjX9Gfdj7C8",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/QjX9Gfdj7C8/hqdefault.jpg",
-            "category": "Relaxation / Nature"
-        },
-        {
-            "id": "2JMbosX2HHY",
-            "title": "Porto, Portugal. 360° 6K aerial video",
-            "url": "https://www.youtube.com/watch?v=2JMbosX2HHY",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/2JMbosX2HHY/hqdefault.jpg",
-            "category": "Cultural / Nature / Aerial / Relaxation"
-        },
-        {
-            "id": "TTI_x3aI96I",
-            "title": "Cancun, Mexico. 16K 360° video trailer",
-            "url": "https://www.youtube.com/watch?v=TTI_x3aI96I",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/TTI_x3aI96I/hqdefault.jpg",
-            "category": "Nature / City / Cultural / Relaxation"
-        },
-        {
-            "id": "RW23Yw6cmeg",
-            "title": "Baikal Lake, Russia. 360° video trailer in 8K",
-            "url": "https://www.youtube.com/watch?v=RW23Yw6cmeg",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/RW23Yw6cmeg/hqdefault.jpg",
-            "category": "Cultural / Nature / Relaxation"
-        },
-        {
-            "id": "JBYi3T93wnE",
-            "title": "Scenic flight over Los Angeles, CA, USA. Aerial 360° video trailer in 8K",
-            "url": "https://www.youtube.com/watch?v=JBYi3T93wnE",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/JBYi3T93wnE/hqdefault.jpg",
-            "category": "Aerial / City / Relaxation / Cultural"
-        },
-        {
-            "id": "Mc83fY0v3g8",
-            "title": "Greenland, Land of Ice. Aerial 360° video trailer in 6K",
-            "url": "https://www.youtube.com/watch?v=Mc83fY0v3g8",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/Mc83fY0v3g8/hqdefault.jpg",
-            "category": "Nature / Aerial / Cultural / Relaxation"
-        },
-        {
-            "id": "lE724ZlVfrE",
-            "title": "Welcome to the Caribbean. Aerial 360° video trailer in 8K",
-            "url": "https://www.youtube.com/watch?v=lE724ZlVfrE",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/lE724ZlVfrE/hqdefault.jpg",
-            "category": "Nature / Relaxation / Aerial / Cultural"
-        },
-        {
-            "id": "uo-gv4AAk_s",
-            "title": "Kremlin. 360° video trailer in 8K",
-            "url": "https://www.youtube.com/watch?v=uo-gv4AAk_s",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/uo-gv4AAk_s/hqdefault.jpg",
-            "category": "Cultural / City / Relaxation"
-        },
-        {
-            "id": "7WWGaiTCOJQ",
-            "title": "Underwater Wonders, Red Sea, Egypt. 8K 360 video",
-            "url": "https://www.youtube.com/watch?v=7WWGaiTCOJQ",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/7WWGaiTCOJQ/hqdefault.jpg",
-            "category": "Underwater / Nature / Cultural / Relaxation"
-        },
-        {
-            "id": "2ghX9JFKsE0",
-            "title": "Paris, France. VR photo tour",
-            "url": "https://www.youtube.com/watch?v=2ghX9JFKsE0",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/2ghX9JFKsE0/hqdefault.jpg",
-            "category": "Cultural / Aerial / City / Relaxation"
-        },
-        {
-            "id": "RFINHgdI7ms",
-            "title": "Flower Field 360° Meditation  in 10K",
-            "url": "https://www.youtube.com/watch?v=RFINHgdI7ms",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/RFINHgdI7ms/hqdefault.jpg",
-            "category": "Relaxation / Aerial / Cultural / Nature"
-        },
-        {
-            "id": "juiZInkxpuE",
-            "title": "Hacha Falls, Canaima Lagoon, Venezuela. 360 video in 5K.",
-            "url": "https://www.youtube.com/watch?v=juiZInkxpuE",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/juiZInkxpuE/hqdefault.jpg",
-            "category": "Nature / Relaxation / Cultural"
-        },
-        {
-            "id": "MHVsn4JaSaE",
-            "title": "Lofoten Islands, Norway. Aerial 360° video trailer in 8K",
-            "url": "https://www.youtube.com/watch?v=MHVsn4JaSaE",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/MHVsn4JaSaE/hqdefault.jpg",
-            "category": "Nature / Relaxation / Cultural"
-        },
-        {
-            "id": "6SbH51yN-q8",
-            "title": "Natural Wonders in Bali. VR Relaxation. 360° video trailer in 8K",
-            "url": "https://www.youtube.com/watch?v=6SbH51yN-q8",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/6SbH51yN-q8/hqdefault.jpg",
-            "category": "Nature / Cultural / Relaxation"
-        },
-        {
-            "id": "Ep2BKWUsWQE",
-            "title": "Northern Lights, Manpupuner Rock Formations. 360° video trailer in 8K",
-            "url": "https://www.youtube.com/watch?v=Ep2BKWUsWQE",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/Ep2BKWUsWQE/hqdefault.jpg",
-            "category": "Cultural / Nature / Relaxation"
-        },
-        {
-            "id": "s6eqVVTJPSc",
-            "title": "Church of the Intercession on the River Nerl in spring flood. Aerial 360 video in 16K",
-            "url": "https://www.youtube.com/watch?v=s6eqVVTJPSc",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/s6eqVVTJPSc/hqdefault.jpg",
-            "category": "Cultural / Nature / City / Relaxation"
-        },
-        {
-            "id": "gKNDwaB-P48",
-            "title": "Alimatha, Maldives, diving with Nurse Sharks. 6K underwater 360 video",
-            "url": "https://www.youtube.com/watch?v=gKNDwaB-P48",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/gKNDwaB-P48/hqdefault.jpg",
-            "category": "Nature / Underwater / Relaxation"
-        },
-        {
-            "id": "50NFDFTTXME",
-            "title": "Welcome to Tibet. 360 video in 12K",
-            "url": "https://www.youtube.com/watch?v=50NFDFTTXME",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/50NFDFTTXME/hqdefault.jpg",
-            "category": "Cultural / Nature / Relaxation / City"
-        },
-        {
-            "id": "lsiAX7uFeUc",
-            "title": "Manpupuner rock formations. 16K 360 aerial relaxing video.",
-            "url": "https://www.youtube.com/watch?v=lsiAX7uFeUc",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/lsiAX7uFeUc/hqdefault.jpg",
-            "category": "Cultural / Aerial / Nature / Relaxation"
-        },
-        {
-            "id": "Po4JieBGQj8",
-            "title": "Swayambhunath, the Monkey Temple, Kathmandu, Nepal. 16K 360 video.",
-            "url": "https://www.youtube.com/watch?v=Po4JieBGQj8",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/Po4JieBGQj8/hqdefault.jpg",
-            "category": "City / Cultural / Relaxation / Adventure"
-        },
-        {
-            "id": "dWa5hJGpTN4",
-            "title": "National Park Moneron Island. 8K 360° virtual travel.",
-            "url": "https://www.youtube.com/watch?v=dWa5hJGpTN4",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/dWa5hJGpTN4/hqdefault.jpg",
-            "category": "Nature / Underwater / Relaxation"
-        },
-        {
-            "id": "q5GXQQo8I-k",
-            "title": "Virtual travel to Saint Petersburg, Russia. 360 video in 6K.",
-            "url": "https://www.youtube.com/watch?v=q5GXQQo8I-k",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/q5GXQQo8I-k/hqdefault.jpg",
-            "category": "Cultural / City / Relaxation"
-        },
-        {
-            "id": "jqq_ZdD5Zwg",
-            "title": "Maldive Paradise. Tropical Beach Relaxation. 360 video in 16K.",
-            "url": "https://www.youtube.com/watch?v=jqq_ZdD5Zwg",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/jqq_ZdD5Zwg/hqdefault.jpg",
-            "category": "Nature / Relaxation / Cultural"
-        },
-        {
-            "id": "uoMVcquLW-I",
-            "title": "Elton Lake, the biggest mineral lake in Europe. 8K aerial 360 video.",
-            "url": "https://www.youtube.com/watch?v=uoMVcquLW-I",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/uoMVcquLW-I/hqdefault.jpg",
-            "category": "Nature / Gaming / Cultural / Relaxation"
-        },
-        {
-            "id": "9JR1IekZGUY",
-            "title": "Male, Maldives. Scenic flight over the city. Relaxing aerial 360 video in 8K.",
-            "url": "https://www.youtube.com/watch?v=9JR1IekZGUY",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/9JR1IekZGUY/hqdefault.jpg",
-            "category": "Nature / Aerial / City / Relaxation"
-        },
-        {
             "id": "PnfJDgS9VZc",
             "title": "Everest 16K. Aerial 360° video trailer in 8K",
             "url": "https://www.youtube.com/watch?v=PnfJDgS9VZc",
@@ -2311,52 +1071,73 @@
             "category": "Nature / Aerial / Relaxation"
         },
         {
-            "id": "VUVDXSJqYbM",
-            "title": "Lake Hibara, Fukushima, Japan.  12K aerial 360 video.",
-            "url": "https://www.youtube.com/watch?v=VUVDXSJqYbM",
+            "title": "AMONG US - THE IMPOSTOR in 360° VR",
+            "id": "KAFlPzXvo00",
             "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/VUVDXSJqYbM/hqdefault.jpg",
-            "category": "Nature / Gaming / Cultural / Relaxation"
+            "url": "https://www.youtube.com/watch?v=KAFlPzXvo00",
+            "thumbnail": "https://img.youtube.com/vi/KAFlPzXvo00/hqdefault.jpg",
+            "category": "Gaming / Adventure",
+            "stereoMode": "monoscopic",
+            "projectionType": "vr360"
         },
         {
-            "id": "nF8UTFHpmjE",
-            "title": "Wild Cats in the Primorsky Safari Park, Vladivostok, Russia. 360 video in 16K.",
-            "url": "https://www.youtube.com/watch?v=nF8UTFHpmjE",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/nF8UTFHpmjE/hqdefault.jpg",
-            "category": "Nature / Cultural"
+            "title": "【VR360】阪急うめだ本店 コンコースから南下しWhityうめだまで歩く",
+            "id": "x9us2p6",
+            "platform": "Dailymotion",
+            "url": "https://www.dailymotion.com/video/x9us2p6",
+            "thumbnail": "https://www.dailymotion.com/thumbnail/video/x9us2p6",
+            "category": "Travel / City / Cultural",
+            "stereoMode": "monoscopic",
+            "projectionType": "vr360"
         },
         {
-            "id": "qQc_kPiRe1E",
-            "title": "Jerusalem scenic flight, Israel. Aerial 360 video in 16K.",
-            "url": "https://www.youtube.com/watch?v=qQc_kPiRe1E",
-            "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/qQc_kPiRe1E/hqdefault.jpg",
-            "category": "Aerial / Cultural / Relaxation"
+            "title": "VISITE VIRTUELLE à 360° du MONT SAINT MICHEL",
+            "id": "x69jd7w",
+            "platform": "Dailymotion",
+            "url": "https://www.dailymotion.com/video/x69jd7w",
+            "thumbnail": "https://www.dailymotion.com/thumbnail/video/x69jd7w",
+            "category": "Travel / Cultural",
+            "stereoMode": "monoscopic",
+            "projectionType": "vr360"
         },
         {
-            "id": "c9DrCd25HpM",
-            "title": "European Bison, Bryansk Forest Nature Reserve. 8K 360 video.",
-            "url": "https://www.youtube.com/watch?v=c9DrCd25HpM",
+            "title": "Tom and Jerry 360° VR video",
+            "id": "4pMXXa72eFY",
             "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/c9DrCd25HpM/hqdefault.jpg",
-            "category": "Nature / Cultural"
+            "url": "https://www.youtube.com/watch?v=4pMXXa72eFY",
+            "thumbnail": "https://img.youtube.com/vi/4pMXXa72eFY/hqdefault.jpg",
+            "stereoMode": "monoscopic",
+            "projectionType": "vr360"
         },
         {
-            "id": "c9YRl7Yu-p8",
-            "title": "Diving with Sharks around the World. Underwater 8K 360 video.",
-            "url": "https://www.youtube.com/watch?v=c9YRl7Yu-p8",
+            "title": "[VR180] Dangerous Roller Coaster 2 in Unity",
+            "id": "fZvnRZ33vtY",
             "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/c9YRl7Yu-p8/hqdefault.jpg",
-            "category": "Underwater / Nature / Relaxation"
+            "url": "https://www.youtube.com/watch?v=fZvnRZ33vtY&t=9s",
+            "thumbnail": "https://img.youtube.com/vi/fZvnRZ33vtY/hqdefault.jpg",
+            "category": "3D Demo",
+            "stereoMode": "monoscopic",
+            "projectionType": "flatScreen"
         },
         {
-            "id": "85ZyiG1FRB0",
-            "title": "Moneron Island National Park. 8K 360 aerial  video.",
-            "url": "https://www.youtube.com/watch?v=85ZyiG1FRB0",
+            "title": "360 Bloom VR",
+            "id": "S893YS3Ix5I",
             "platform": "YouTube",
-            "thumbnail": "https://img.youtube.com/vi/85ZyiG1FRB0/hqdefault.jpg",
-            "category": "Nature / Underwater / Relaxation"
+            "url": "https://www.youtube.com/watch?v=S893YS3Ix5I",
+            "thumbnail": "https://img.youtube.com/vi/S893YS3Ix5I/hqdefault.jpg",
+            "category": "Entertainment",
+            "stereoMode": "monoscopic",
+            "projectionType": "vr360"
+        },
+        {
+            "title": "What if Earth Had Rings Like Saturn - 360° VR Simulation",
+            "id": "xm8R1aoKoFw",
+            "platform": "YouTube",
+            "url": "https://www.youtube.com/watch?v=xm8R1aoKoFw",
+            "thumbnail": "https://img.youtube.com/vi/xm8R1aoKoFw/hqdefault.jpg",
+            "category": "Nature / Aerial",
+            "stereoMode": "monoscopic",
+            "projectionType": "vr360"
         }
     ]
 }
