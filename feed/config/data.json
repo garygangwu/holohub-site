@@ -3,12 +3,12 @@
         {
             "id": "all",
             "name": "All Videos",
-            "count": 97
+            "count": 96
         },
         {
             "id": "3d demo",
             "name": "3d demo",
-            "count": 29
+            "count": 28
         },
         {
             "id": "cultural",
@@ -18,7 +18,7 @@
         {
             "id": "nature",
             "name": "Nature",
-            "count": 24
+            "count": 23
         },
         {
             "id": "entertainment",
@@ -51,14 +51,14 @@
             "count": 11
         },
         {
-            "id": "animal",
-            "name": "Animal",
-            "count": 10
-        },
-        {
             "id": "sports",
             "name": "Sports",
             "count": 10
+        },
+        {
+            "id": "animal",
+            "name": "Animal",
+            "count": 9
         },
         {
             "id": "relaxation",
@@ -676,16 +676,6 @@
             "category": "Aerial / Nature",
             "stereoMode": "monoscopic",
             "projectionType": "eac"
-        },
-        {
-            "title": "Ark Survival Dinosaurs in 360 Stereo VR - HUGE!",
-            "id": "ark-survival-dinosaurs-in-360-stereo-vr:f",
-            "platform": "Odysee",
-            "url": "https://odysee.com/@Gamevid4:80c/ark-survival-dinosaurs-in-360-stereo-vr:f",
-            "thumbnail": "https://thumbnails.odycdn.com/card/s:1280:720/quality:85/plain/https://thumbnails.lbry.com/S_B8K5FKaao",
-            "category": "Animal / Nature / 3D Demo",
-            "stereoMode": "overUnder",
-            "projectionType": "vr360"
         },
         {
             "title": "3D BELLY DANCING | ORIENTAL | VR 3D",

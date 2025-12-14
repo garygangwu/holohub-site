@@ -348,12 +348,6 @@
         "projectionType": "eac"
     },
     {
-        "id": "ark-survival-dinosaurs-in-360-stereo-vr:f",
-        "platform": "Odysee",
-        "stereoMode": "overUnder",
-        "projectionType": "vr360"
-    },
-    {
         "id": "3d-belly-dancing-oriental-vr-3d:a",
         "platform": "Odysee",
         "stereoMode": "sideBySide",
