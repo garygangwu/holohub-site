@@ -3,12 +3,12 @@
         {
             "id": "all",
             "name": "All Videos",
-            "count": 96
+            "count": 93
         },
         {
             "id": "3d demo",
             "name": "3d demo",
-            "count": 28
+            "count": 25
         },
         {
             "id": "cultural",
@@ -63,7 +63,7 @@
         {
             "id": "relaxation",
             "name": "Relaxation",
-            "count": 8
+            "count": 7
         },
         {
             "id": "aerial",
@@ -608,16 +608,6 @@
             "projectionType": "vr360"
         },
         {
-            "title": "Yoga start tutorial warm up vr180",
-            "id": "yoga-start-tutorial-warm-up-vr180-3d-8k:7",
-            "platform": "Odysee",
-            "url": "https://odysee.com/@VRMOTION:d/yoga-start-tutorial-warm-up-vr180-3d-8k:7",
-            "thumbnail": "https://thumbnails.odycdn.com/card/s:1280:720/quality:85/plain/https://thumbnails.lbry.com/xEpcHX1XJS0",
-            "category": "3D Demo / Relaxation",
-            "stereoMode": "sideBySide",
-            "projectionType": "vr180"
-        },
-        {
             "title": "Breachers - Father VS Son - Quest 3 [4K 3D VR180]",
             "id": "breachers-father-vs-son-quest-3-4k-3d-2:a",
             "platform": "Odysee",
@@ -757,26 +747,6 @@
             "category": "Entertainment / Music / Relaxation",
             "stereoMode": "monoscopic",
             "projectionType": "vr360"
-        },
-        {
-            "title": "Coffee Date • POV 180 Degrees",
-            "id": "coffee-date-%E2%80%A2-pov-180-degrees-with:c",
-            "platform": "Odysee",
-            "url": "https://odysee.com/@VRKINGS:c/coffee-date-%E2%80%A2-pov-180-degrees-with:c",
-            "thumbnail": "https://thumbnails.odycdn.com/card/s:1280:720/quality:85/plain/https://thumbnails.lbry.com/kqn_GRoWQtY",
-            "category": "3D Demo",
-            "stereoMode": "sideBySide",
-            "projectionType": "vr180"
-        },
-        {
-            "title": "New Coffee Date • POV 180 Degrees",
-            "id": "new-coffee-date-%E2%80%A2-pov-180-degrees-with:2",
-            "platform": "Odysee",
-            "url": "https://odysee.com/@VRKINGS:c/new-coffee-date-%E2%80%A2-pov-180-degrees-with:2",
-            "thumbnail": "https://thumbnails.odycdn.com/card/s:1280:720/quality:85/plain/https://thumbnails.lbry.com/UM-drbvdxXc",
-            "category": "3D Demo",
-            "stereoMode": "sideBySide",
-            "projectionType": "vr180"
         },
         {
             "title": "The PyeongChang 2018 Opening Ceremony - 180° VR Edition!",
