@@ -1,0 +1,29 @@
+[
+    {
+      "trigger": {
+        "url-filter": ".*(porn|sex|xxx|hentai|xnxx|xvideos|redtube|youporn|brazzers|onlyfans).*"
+      },
+      "action": {
+        "type": "block"
+      }
+    },
+    {
+      "trigger": {
+        "url-filter": ".*",
+        "if-domain": [
+          "pornhub.com",
+          "www.pornhub.com",
+          "xvideos.com",
+          "www.xvideos.com",
+          "xnxx.com",
+          "www.xnxx.com",
+          "redtube.com",
+          "youporn.com",
+          "onlyfans.com"
+        ]
+      },
+      "action": {
+        "type": "block"
+      }
+    }
+  ]
