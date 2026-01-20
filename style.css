@@ -203,6 +203,86 @@ p {
   box-shadow: 0 12px 40px rgba(255, 0, 110, 0.5);
 }
 
+/* TestFlight Beta Button */
+.btn-beta,
+.btn-testflight {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 28px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  border: 2px solid #ff9500;
+  background: rgba(255, 149, 0, 0.15);
+  color: #ffb84d;
+  box-shadow: 0 4px 20px rgba(255, 149, 0, 0.2);
+}
+
+.btn-beta:hover,
+.btn-testflight:hover {
+  background: rgba(255, 149, 0, 0.25);
+  border-color: #ffb84d;
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 8px 32px rgba(255, 149, 0, 0.4),
+              0 0 40px rgba(255, 149, 0, 0.2);
+}
+
+.beta-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  background: linear-gradient(135deg, #ff9500, #ff6b00);
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-radius: 4px;
+  animation: pulse-badge 2s ease-in-out infinite;
+}
+
+@keyframes pulse-badge {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255, 149, 0, 0.4); }
+  50% { box-shadow: 0 0 0 8px rgba(255, 149, 0, 0); }
+}
+
+.beta-hint {
+  text-align: center;
+  font-size: 14px;
+  color: rgba(255, 185, 77, 0.8);
+  margin-top: 12px;
+  margin-bottom: 40px;
+}
+
+/* Download buttons container in final CTA */
+.download-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.download-buttons .btn-download,
+.download-buttons .btn-testflight {
+  min-width: 280px;
+  text-align: center;
+  justify-content: center;
+  display: inline-flex;
+  align-items: center;
+  padding: 18px 32px;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.testflight-promo {
+  font-size: 14px;
+  color: rgba(255, 185, 77, 0.9);
+  margin-bottom: 80px;
+}
+
 /* ==========================================
    HERO SECTION
    ========================================== */
@@ -1017,8 +1097,21 @@ p {
   }
 
   .btn-primary,
-  .btn-secondary {
+  .btn-secondary,
+  .btn-beta {
     width: 100%;
+  }
+
+  .download-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn-download,
+  .btn-testflight {
+    width: 100%;
+    max-width: 320px;
+    justify-content: center;
   }
 
   /* Sections */
